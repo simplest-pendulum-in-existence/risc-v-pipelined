@@ -1,5 +1,9 @@
 # compile verilog/system verilog design source files
 sv xil_defaultlib  \
+"../../../../_18_lab.srcs/sources_1/new/EX_MEM_Stage.sv" \
+"../../../../_18_lab.srcs/sources_1/new/ID_EX_Stage.sv" \
+"../../../../_18_lab.srcs/sources_1/new/IF_ID_Stage.sv" \
+"../../../../_18_lab.srcs/sources_1/new/MEM_WB_Stage.sv" \
 "../../../../_18_lab.srcs/sources_1/new/alu.sv" \
 "../../../../_18_lab.srcs/sources_1/new/alu_control.sv" \
 "../../../../_18_lab.srcs/sources_1/new/data_memory.sv" \

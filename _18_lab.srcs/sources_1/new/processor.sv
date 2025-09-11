@@ -62,7 +62,7 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
         logic [6:0] funct7;
         
         assign OpCode = D_instr[6:0]; 
-        assign addr_rd = D_instr[11:7]; // proceeds
+        assign addr_rd = D_instr[11:7];      // proceeds
         assign funct3 =  D_instr[14:12]; 
         assign addr_rs1 = D_instr[19:15]; 
         assign addr_rs2 = D_instr[24:20]; 
@@ -70,7 +70,7 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
         
         // Control unit for signal generation 
         logic RegWrite; 
-        logic ALUSrc;   // proceeds
+        logic ALUSrc;               // proceeds
         logic [1:0] ALUOp;
         
         logic MemWrite, MemRead, MemToReg; // data memory related stuff  <--- proceed
@@ -81,7 +81,7 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
         main_control MCU (
                 .OpCode(OpCode),
                 .RegWrite(RegWrite), 
-                .ALUSrc(ALUSrc), 
+                .ALUSrc(ALUSrc),  // alu_src_1 sel signal
                 .ALUOp(ALUOp),
                 .MemWrite(MemWrite), 
                 .MemRead(MemRead), 
@@ -89,7 +89,7 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
                 .Jump(Jump),    
                 .JumpSrc(JumpSrc),
                 .Branch(Branch),
-                .rs1_sel(rs1_sel)
+                .rs1_sel(rs1_sel)   // alu_src_2 sel signal
         );
         
         // 3. register file, by now we have the control signal
@@ -112,12 +112,16 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
             .out(write_data_src)  
         );
         
+        // signals coming from advanced stages 
+        logic W_RegWrite;
+        logic [4:0] W_addr_rd;
+        
         register_file RF (
             .clk(clk), .rst(rst),
-            .RegWrite(RegWrite),
+            .RegWrite(W_RegWrite),
             .addr_rs1(addr_rs1), 
             .addr_rs2(addr_rs2),                 // in case of JAL and JALR (for learning), this output/reg is x (don't care), cause we reading imm20 (or 21)
-            .addr_rd  (addr_rd),                  // that 'ra' register for example
+            .addr_rd  (W_addr_rd),                  // that 'ra' register for example (coming from WB cycle)
             .data (write_data_src),              // goes in here, comes from either the ALU/data memory or PC+4
             .rs1(rs1),
             .rs2(rs2)
@@ -132,7 +136,6 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
             .immExt(immExt)
         );
 
-        
         // 5. the operands are ready for ALU, 
         // we need ALUControl signals to get our ALU to 
         // perform the desired operation 
@@ -148,6 +151,7 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
         
         // pipeline register
         // ID/EX pipeline register signals
+        // control
         logic        E_MemWrite;
         logic        E_MemRead;
         logic        E_MemToReg;
@@ -162,12 +166,15 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
         logic        E_ALUSrc;
         logic [1:0]  E_rs1_sel;
         
+        // data
         logic [31:0] E_rs1;
         logic [31:0] E_rs2;
         logic [4:0]  E_addr_rd;
         
         logic [31:0] E_pc;
+        logic [31:0] E_pc_plus_4; 
         logic [31:0] E_pc_next;
+        logic [ 2:0 ] E_funct3;
         logic [31:0] E_immExt;
 
         ID_EX_Stage STAGE_2 (
@@ -189,6 +196,7 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
             .D_addr_rd(addr_rd),
             .D_pc(D_pc),            // retained from prev stage
             .D_pc_next(D_pc_next),   // ---
+            .D_funct3(funct3),
             .D_immExt(immExt), 
             
             // control outputs
@@ -208,7 +216,9 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
             .E_rs2(E_rs2),
             .E_addr_rd(E_addr_rd),
             .E_pc(E_pc),
+            .E_pc_plus_4(E_pc_plus_4),
             .E_pc_next(E_pc_next),
+            .E_funct3(E_funct3),
             .E_immExt(E_immExt)
         );
         
@@ -224,10 +234,10 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
 
         always_comb
         begin
-            case (rs1_sel)  
+            case (E_rs1_sel)  
                 2'b00:  rs1_src = 32'b0;   // LUI 
-                2'b01:  rs1_src = D_pc;      // AUIPC | the concerned instruction 
-                2'b10:  rs1_src = rs1;    //  normal case
+                2'b01:  rs1_src = E_pc;      // AUIPC | the concerned instruction 
+                2'b10:  rs1_src = E_rs1;    //  normal case
                 
                 default:
                     rs1_src = 32'bz;  // reserved for future use 
@@ -237,9 +247,9 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
   
         // alu src 2 mux
         mux_2x1 REG_OR_IMM_MUX (
-            .a(rs2), 
-            .b(immExt),
-            .sel(ALUSrc),
+            .a(E_rs2), 
+            .b(E_immExt),
+            .sel(E_ALUSrc),
             .out(rs2_src)   // the value we get for rs2 
         );   
 
@@ -248,7 +258,7 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
         alu  ALU (
             .rs1(rs1_src), 
             .rs2(rs2_src), // either immediate or rs2 itself from register file
-            .ALUControl(ALUControl), 
+            .ALUControl(E_ALUControl), 
             .data(ALUResult),    // goes to Register File
             .Zero(IsZero)
         );
@@ -263,16 +273,16 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
         begin 
         
             if (E_Jump) begin
-                if (E_JumpSrc) pc_next = ALUResult;  // JALR
+                if (E_JumpSrc) pc_next = ALUResult;         // JALR
                 else                  pc_next = E_pc + rs2_src;   // JAL 
             end 
             else if (E_Branch) begin // beq operation 
                 if (IsZero) 
                     pc_next = E_pc + E_immExt; 
                 else 
-                    pc_next = pc_plus_4;
+                    pc_next = E_pc_plus_4;
             end
-            else  pc_next = pc_plus_4;
+            else  pc_next = E_pc_plus_4;
              
         end
         
@@ -285,6 +295,7 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
          
         logic [31:0] M_ALUResult;
         logic [31:0] M_rs2;
+        logic [ 2:0 ] M_funct3;
         logic [ 4:0 ] M_addr_rd;
         logic [31:0] M_pc_next;
         
@@ -296,6 +307,7 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
             .E_MemToReg(E_MemToReg),
             .E_ALUResult(ALUResult), 
             .E_rs2(E_rs2),
+            .E_funct3(E_funct3),
             .E_addr_rd(E_addr_rd),
             .E_pc_next(E_pc_next), // i won't apparently be using this i guess :=(
             
@@ -305,6 +317,7 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
             .M_MemToReg(M_MemToReg),
             .M_ALUResult(M_ALUResult), 
             .M_rs2(M_rs2),
+            .M_funct3(M_funct3),
             .M_addr_rd(M_addr_rd),
             .M_pc_next(M_pc_next) // won't !!! :(  
         );
@@ -320,11 +333,11 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
         
         data_memory DMEM (
             .clk(clk), 
-            .MemRd(MemRead), 
-            .MemWr(MemWrite),
-            .addr(ALUResult),   // data here is the computed address from ALU
-            .dataW(rs2),            // in case of SW
-            .funct3(funct3),      
+            .MemRd(M_MemRead), 
+            .MemWr(M_MemWrite),
+            .addr(M_ALUResult),   // data here is the computed address from ALU
+            .dataW(M_rs2),            // in case of SW
+            .funct3(M_funct3),      
             .dataR(dataR)          // data from memory, to be written to a register (LW)
         );
         
@@ -332,26 +345,37 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
         // the Memory data to the register file 
         
         // pipeline processor
-        logic W_MemWrite;
         logic W_MemToReg;
+        // logic W_RegWrite; 
         
-        logic [31:0] W_dataR; 
-        logic [ 4:0 ] W_addr_rd; 
+        logic [31:0] W_dataR;
+        // logic [ 4:0 ] W_addr_rd; 
+        logic [31:0] W_ALUResult;
         logic [31:0] W_pc_next;  // unused still , courtesy of my love for this signal!
 
         MEM_WB_Stage STAGE_4 (
             .clk(clk), .rst(rst),
+            
             .M_RegWrite(M_RegWrite), 
             .M_MemToReg(M_MemToReg),
-            .W_dataR (dataR),
-            .W_addr_rd(M_addr_rd),
-            .W_pc_next(M_pc_next) // courtesy of my love for this signal yet again!
+            .M_dataR (dataR),
+            .M_addr_rd(M_addr_rd),
+            .M_ALUResult(M_ALUResult),
+            .M_pc_next(M_pc_next), // courtesy of my love for this signal yet again!
+
+            .W_RegWrite(W_RegWrite),  // feedsback to ID stage
+            .W_MemToReg(W_MemToReg),
+            .W_dataR (W_dataR),
+            .W_addr_rd(W_addr_rd),
+            .W_ALUResult(W_ALUResult),
+            .W_pc_next(W_pc_next) 
+            
         ); 
         
         mux_2x1 ALU_OR_MEM_OUT (
-            .a(M_ALUResult), // from prev stage
-            .b(dataR),             // from curr stage 
-            .sel(M_MemToReg), 
+            .a(W_ALUResult), // from prev stage
+            .b(W_dataR),             // from curr stage 
+            .sel(W_MemToReg), 
             .out(result)                 // this result goes to another mux placed before RF
         );
         

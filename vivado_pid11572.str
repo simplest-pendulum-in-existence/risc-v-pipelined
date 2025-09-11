@@ -997,3 +997,1310 @@ selectCodeEditor("ID_EX_Stage.sv", 290, 464); // cl (w, cl)
 selectCodeEditor("ID_EX_Stage.sv", 255, 218); // cl (w, cl)
 // Elapsed time: 50 seconds
 selectCodeEditor("processor.sv", 234, 365); // cl (w, aM)
+// Elapsed time: 145 seconds
+selectCodeEditor("processor.sv", 443, 302); // cl (w, aM)
+selectCodeEditor("processor.sv", 37, 135); // cl (w, aM)
+selectCodeEditor("processor.sv", 113, 331); // cl (w, aM)
+selectCodeEditor("processor.sv", 39, 134); // cl (w, aM)
+selectCodeEditor("processor.sv", 93, 333); // cl (w, aM)
+selectCodeEditor("processor.sv", 107, 220); // cl (w, aM)
+selectCodeEditor("processor.sv", 126, 204); // cl (w, aM)
+selectCodeEditor("processor.sv", 345, 220); // cl (w, aM)
+selectCodeEditor("processor.sv", 918, 451); // cl (w, aM)
+// Elapsed time: 46 seconds
+selectCodeEditor("processor.sv", 60, 365); // cl (w, aM)
+selectCodeEditor("processor.sv", 236, 434); // cl (w, aM)
+selectCodeEditor("processor.sv", 203, 411); // cl (w, aM)
+// Elapsed time: 61 seconds
+selectCodeEditor("processor.sv", 179, 573); // cl (w, aM)
+selectCodeEditor("processor.sv", 330, 584); // cl (w, aM)
+selectCodeEditor("processor.sv", 275, 488); // cl (w, aM)
+selectCodeEditor("processor.sv", 331, 542); // cl (w, aM)
+selectCodeEditor("processor.sv", 541, 486); // cl (w, aM)
+// Elapsed time: 17 seconds
+selectCodeEditor("processor.sv", 185, 415); // cl (w, aM)
+// Elapsed time: 82 seconds
+selectCodeEditor("processor.sv", 162, 451); // cl (w, aM)
+selectCodeEditor("processor.sv", 195, 433); // cl (w, aM)
+selectCodeEditor("processor.sv", 228, 431); // cl (w, aM)
+// Elapsed time: 20 seconds
+selectCodeEditor("processor.sv", 356, 429); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 144 seconds
+selectCodeEditor("processor.sv", 112, 247); // cl (w, aM)
+selectCodeEditor("processor.sv", 108, 292); // cl (w, aM)
+selectCodeEditor("processor.sv", 113, 273); // cl (w, aM)
+selectCodeEditor("processor.sv", 140, 297); // cl (w, aM)
+selectCodeEditor("processor.sv", 119, 273); // cl (w, aM)
+// Elapsed time: 71 seconds
+selectCodeEditor("processor.sv", 375, 348); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 158 seconds
+selectCodeEditor("processor.sv", 106, 163); // cl (w, aM)
+selectCodeEditor("processor.sv", 232, 555); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("processor.sv", 172, 340); // cl (w, aM)
+selectCodeEditor("processor.sv", 115, 369); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 320, 130); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("processor.sv", 132, 282); // cl (w, aM)
+selectCodeEditor("processor.sv", 113, 458); // cl (w, aM)
+selectCodeEditor("processor.sv", 255, 581); // cl (w, aM)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 41 seconds
+selectCodeEditor("processor.sv", 163, 596); // cl (w, aM)
+selectCodeEditor("processor.sv", 238, 680); // cl (w, aM)
+selectCodeEditor("processor.sv", 210, 677); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+selectCodeEditor("MEM_WB_Stage.sv", 336, 203); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 210, 503); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 112, 409); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 233, 333); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 552, 334); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectCodeEditor("ID_EX_Stage.sv", 204, 554); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 169, 471); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 187, 557); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 224, 557); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("ID_EX_Stage.sv", 190, 354); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 170, 387); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 129, 360); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 234, 324); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 189, 491); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 261, 483); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 262, 512); // cl (w, cl)
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 19 seconds
+selectCodeEditor("ID_EX_Stage.sv", 112, 350); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 106, 437); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 111, 357); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 125, 419); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 59, 281); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 121, 256); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 131, 323); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 135, 422); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 223, 425); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 187, 496); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 155, 272); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 232, 247); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 185, 335); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 481, 299); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 473, 321); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 474, 311); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 33 seconds
+selectCodeEditor("processor.sv", 179, 569); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 234, 624); // cl (w, aM)
+// Elapsed time: 23 seconds
+selectCodeEditor("processor.sv", 74, 274); // cl (w, aM)
+selectCodeEditor("processor.sv", 76, 267); // cl (w, aM)
+selectCodeEditor("processor.sv", 81, 274); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectCodeEditor("processor.sv", 88, 595); // cl (w, aM)
+selectCodeEditor("processor.sv", 103, 556); // cl (w, aM)
+selectCodeEditor("processor.sv", 98, 572); // cl (w, aM)
+// Elapsed time: 15 seconds
+selectCodeEditor("processor.sv", 81, 468); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 98, 556); // cl (w, aM)
+selectCodeEditor("processor.sv", 91, 550); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 34 seconds
+selectCodeEditor("processor.sv", 94, 335); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 102, 388); // cl (w, aM)
+selectCodeEditor("processor.sv", 103, 411); // cl (w, aM)
+selectCodeEditor("processor.sv", 101, 339); // cl (w, aM)
+selectCodeEditor("processor.sv", 114, 446); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 27 seconds
+selectCodeEditor("processor.sv", 87, 365); // cl (w, aM)
+selectCodeEditor("processor.sv", 321, 519); // cl (w, aM)
+selectCodeEditor("processor.sv", 345, 518); // cl (w, aM)
+selectCodeEditor("processor.sv", 287, 490); // cl (w, aM)
+selectCodeEditor("processor.sv", 270, 506); // cl (w, aM)
+selectCodeEditor("processor.sv", 244, 492); // cl (w, aM)
+selectCodeEditor("processor.sv", 204, 494); // cl (w, aM)
+// Elapsed time: 30 seconds
+selectCodeEditor("processor.sv", 80, 589); // cl (w, aM)
+selectCodeEditor("processor.sv", 150, 629); // cl (w, aM)
+// Elapsed time: 24 seconds
+selectCodeEditor("processor.sv", 246, 431); // cl (w, aM)
+typeControlKey((HResource) null, "processor.sv", 'c'); // cl (w, aM)
+selectCodeEditor("processor.sv", 379, 368); // cl (w, aM)
+// Elapsed time: 10 seconds
+selectCodeEditor("processor.sv", 278, 588); // cl (w, aM)
+// Elapsed time: 204 seconds
+selectCodeEditor("processor.sv", 661, 572); // cl (w, aM)
+selectCodeEditor("processor.sv", 365, 589); // cl (w, aM)
+selectCodeEditor("processor.sv", 321, 623); // cl (w, aM)
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 54 MB. Current time: 9/11/25, 9:58:44 AM PKT
+// Elapsed time: 315 seconds
+selectCodeEditor("processor.sv", 1086, 161); // cl (w, aM)
+// Elapsed time: 14 seconds
+selectCodeEditor("processor.sv", 263, 105); // cl (w, aM)
+selectCodeEditor("processor.sv", 67, 151); // cl (w, aM)
+// Elapsed time: 13 seconds
+selectCodeEditor("processor.sv", 53, 350); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 28 seconds
+selectCodeEditor("processor.sv", 457, 439); // cl (w, aM)
+// Elapsed time: 160 seconds
+selectView(PAResourceOtoP.PAViews_FLOW_NAVIGATOR, "Flow Navigator", 75, 75, 240, 929, false, false, false, true, false); // D (ci, cl) - Popup Trigger
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 55 MB. Current time: 9/11/25, 10:02:29 AM PKT
+// Elapsed time: 55 seconds
+selectCodeEditor("processor.sv", 128, 419); // cl (w, aM)
+selectCodeEditor("processor.sv", 166, 309); // cl (w, aM)
+// Elapsed time: 30 seconds
+selectCodeEditor("processor.sv", 155, 408); // cl (w, aM)
+selectCodeEditor("processor.sv", 184, 458); // cl (w, aM)
+// Elapsed time: 21 seconds
+selectCodeEditor("processor.sv", 145, 164); // cl (w, aM)
+// Elapsed time: 13 seconds
+selectCodeEditor("processor.sv", 77, 176); // cl (w, aM)
+selectCodeEditor("processor.sv", 73, 231); // cl (w, aM)
+selectCodeEditor("processor.sv", 62, 304); // cl (w, aM)
+selectCodeEditor("processor.sv", 195, 308); // cl (w, aM)
+// Elapsed time: 36 seconds
+selectCodeEditor("processor.sv", 117, 187); // cl (w, aM)
+selectCodeEditor("processor.sv", 168, 382); // cl (w, aM)
+selectCodeEditor("processor.sv", 384, 257); // cl (w, aM)
+selectCodeEditor("processor.sv", 289, 265); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 162, 310); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("processor.sv", 353, 144); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 42 seconds
+selectCodeEditor("processor.sv", 377, 509); // cl (w, aM)
+selectCodeEditor("processor.sv", 122, 449); // cl (w, aM)
+selectCodeEditor("processor.sv", 174, 438); // cl (w, aM)
+selectCodeEditor("processor.sv", 291, 466); // cl (w, aM)
+selectCodeEditor("processor.sv", 121, 581); // cl (w, aM)
+selectCodeEditor("processor.sv", 120, 552); // cl (w, aM)
+// Elapsed time: 15 seconds
+selectCodeEditor("processor.sv", 34, 293); // cl (w, aM)
+selectCodeEditor("processor.sv", 241, 470); // cl (w, aM)
+selectCodeEditor("processor.sv", 24, 433); // cl (w, aM)
+selectCodeEditor("processor.sv", 222, 596); // cl (w, aM)
+selectCodeEditor("processor.sv", 56, 433); // cl (w, aM)
+selectCodeEditor("processor.sv", 323, 483); // cl (w, aM)
+selectCodeEditor("processor.sv", 5, 427); // cl (w, aM)
+selectCodeEditor("processor.sv", 288, 481); // cl (w, aM)
+selectCodeEditor("processor.sv", 130, 248); // cl (w, aM)
+selectCodeEditor("processor.sv", 258, 259); // cl (w, aM)
+selectCodeEditor("processor.sv", 185, 378); // cl (w, aM)
+selectCodeEditor("processor.sv", 292, 377); // cl (w, aM)
+selectCodeEditor("processor.sv", 947, 469); // cl (w, aM)
+selectCodeEditor("processor.sv", 784, 633); // cl (w, aM)
+// Elapsed time: 49 seconds
+selectCodeEditor("processor.sv", 1291, 219); // cl (w, aM)
+typeControlKey((HResource) null, "processor.sv", 'c'); // cl (w, aM)
+// Elapsed time: 175 seconds
+selectCodeEditor("processor.sv", 701, 301); // cl (w, aM)
+selectCodeEditor("processor.sv", 90, 417); // cl (w, aM)
+selectCodeEditor("processor.sv", 213, 447); // cl (w, aM)
+selectCodeEditor("processor.sv", 150, 634); // cl (w, aM)
+selectCodeEditor("processor.sv", 216, 632); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("processor.sv", 106, 629); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 23 seconds
+selectCodeEditor("processor.sv", 229, 373); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 45 seconds
+selectCodeEditor("processor.sv", 133, 624); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 23 seconds
+selectCodeEditor("processor.sv", 119, 630); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 55 seconds
+selectCodeEditor("processor.sv", 192, 430); // cl (w, aM)
+// Elapsed time: 27 seconds
+selectCodeEditor("processor.sv", 119, 490); // cl (w, aM)
+selectCodeEditor("processor.sv", 96, 465); // cl (w, aM)
+selectCodeEditor("processor.sv", 197, 214); // cl (w, aM)
+selectCodeEditor("processor.sv", 184, 174); // cl (w, aM)
+selectCodeEditor("processor.sv", 175, 308); // cl (w, aM)
+selectCodeEditor("processor.sv", 235, 306); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 19 seconds
+selectCodeEditor("ID_EX_Stage.sv", 319, 282); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 246, 158); // cl (w, cl)
+// Elapsed time: 105 seconds
+selectCodeEditor("ID_EX_Stage.sv", 202, 387); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 356, 450); // cl (w, cl)
+// Elapsed time: 28 seconds
+selectCodeEditor("processor.sv", 220, 436); // cl (w, aM)
+selectCodeEditor("processor.sv", 189, 256); // cl (w, aM)
+selectCodeEditor("processor.sv", 155, 380); // cl (w, aM)
+selectCodeEditor("processor.sv", 166, 340); // cl (w, aM)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ID_EX_Stage.sv", 3); // k (j, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 174, 321); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 222, 374); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 199, 441); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 210, 495); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 221, 494); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 254, 582); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 162, 467); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 186, 563); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 240, 547); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+selectCodeEditor("EX_MEM_Stage.sv", 105, 382); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 166, 361); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 162, 418); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 205, 406); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("EX_MEM_Stage.sv", 190, 515); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 189, 666); // cl (w, cl)
+typeControlKey((HResource) null, "EX_MEM_Stage.sv", 'c'); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 255, 221); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 233, 181); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 240, 214); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 215, 309); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 249, 347); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 545, 331); // cl (w, cl)
+typeControlKey((HResource) null, "EX_MEM_Stage.sv", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("EX_MEM_Stage.sv", 553, 471); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 158, 104); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 172, 473); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("EX_MEM_Stage.sv", 159, 345); // cl (w, cl)
+typeControlKey((HResource) null, "EX_MEM_Stage.sv", 'c'); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 284, 551); // cl (w, cl)
+typeControlKey((HResource) null, "EX_MEM_Stage.sv", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("EX_MEM_Stage.sv", 510, 439); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 217, 230); // cl (w, cl)
+// Elapsed time: 35 seconds
+selectCodeEditor("processor.sv", 97, 226); // cl (w, aM)
+selectCodeEditor("processor.sv", 328, 259); // cl (w, aM)
+selectCodeEditor("processor.sv", 328, 254); // cl (w, aM)
+// Elapsed time: 31 seconds
+selectCodeEditor("processor.sv", 191, 205); // cl (w, aM)
+selectCodeEditor("processor.sv", 204, 233); // cl (w, aM)
+selectCodeEditor("processor.sv", 965, 533); // cl (w, aM)
+// Elapsed time: 74 seconds
+selectCodeEditor("processor.sv", 126, 624); // cl (w, aM)
+selectCodeEditor("processor.sv", 163, 495); // cl (w, aM)
+selectCodeEditor("processor.sv", 122, 595); // cl (w, aM)
+selectCodeEditor("processor.sv", 128, 588); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor("processor.sv", 98, 169); // cl (w, aM)
+selectCodeEditor("processor.sv", 147, 524); // cl (w, aM)
+selectCodeEditor("processor.sv", 191, 515); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 24 seconds
+selectCodeEditor("processor.sv", 136, 668); // cl (w, aM)
+selectCodeEditor("processor.sv", 152, 760); // cl (w, aM)
+selectCodeEditor("processor.sv", 180, 743); // cl (w, aM)
+selectCodeEditor("processor.sv", 175, 725); // cl (w, aM)
+selectCodeEditor("processor.sv", 191, 671); // cl (w, aM)
+// Elapsed time: 13 seconds
+selectCodeEditor("processor.sv", 118, 465); // cl (w, aM)
+selectCodeEditor("processor.sv", 147, 532); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 237, 634); // cl (w, aM)
+typeControlKey(null, null, 'z');
+selectCodeEditor("processor.sv", 216, 675); // cl (w, aM)
+typeControlKey((HResource) null, "processor.sv", 'v'); // cl (w, aM)
+selectCodeEditor("processor.sv", 216, 690); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 95, 723); // cl (w, aM)
+selectCodeEditor("processor.sv", 87, 709); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 163, 670); // cl (w, aM)
+selectCodeEditor("processor.sv", 232, 678); // cl (w, aM)
+selectCodeEditor("processor.sv", 264, 684); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 38 seconds
+selectCodeEditor("processor.sv", 158, 616); // cl (w, aM)
+selectCodeEditor("processor.sv", 257, 638); // cl (w, aM)
+selectCodeEditor("processor.sv", 330, 639); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "EX_MEM_Stage.sv", 1); // k (j, cl)
+selectCodeEditor("ID_EX_Stage.sv", 197, 552); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 264, 575); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 299, 557); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 378, 556); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 247, 579); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 213, 593); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectCodeEditor("ID_EX_Stage.sv", 157, 592); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 185, 387); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 187, 402); // cl (w, cl)
+typeControlKey((HResource) null, "ID_EX_Stage.sv", 'c'); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 194, 466); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 137, 538); // cl (w, cl)
+typeControlKey((HResource) null, "ID_EX_Stage.sv", 'v'); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 128, 523); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 36, 532); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 36, 532, false, false, false, false, true); // cl (w, cl) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("ID_EX_Stage.sv", 50, 544); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("ID_EX_Stage.sv", 121, 568); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 178, 470); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 172, 542); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 151, 557); // cl (w, cl)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 23 seconds
+selectCodeEditor("processor.sv", 195, 173); // cl (w, aM)
+typeControlKey((HResource) null, "processor.sv", 'c'); // cl (w, aM)
+selectCodeEditor("processor.sv", 207, 718); // cl (w, aM)
+selectCodeEditor("processor.sv", 138, 764); // cl (w, aM)
+selectCodeEditor("processor.sv", 175, 750); // cl (w, aM)
+selectCodeEditor("processor.sv", 219, 747); // cl (w, aM)
+selectCodeEditor("processor.sv", 65, 743); // cl (w, aM)
+selectCodeEditor("processor.sv", 136, 636); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+selectCodeEditor("processor.sv", 774, 574); // cl (w, aM)
+// Elapsed time: 10 seconds
+selectCodeEditor("processor.sv", 152, 635); // cl (w, aM)
+selectCodeEditor("processor.sv", 1247, 626); // cl (w, aM)
+selectCodeEditor("ID_EX_Stage.sv", 147, 549); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 156, 574); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 261, 562); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 182, 597); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 115, 441); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 214, 441); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 190, 389); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 166, 424); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 125, 432); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 146, 459); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 140, 444); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 136, 424); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 174, 228); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 241, 228); // cl (w, cl)
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("ID_EX_Stage.sv", 198, 595); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 294, 593); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+selectCodeEditor("processor.sv", 323, 128); // cl (w, aM)
+typeControlKey((HResource) null, "processor.sv", 'c'); // cl (w, aM)
+// Elapsed time: 30 seconds
+selectCodeEditor("processor.sv", 311, 253); // cl (w, aM)
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 54 MB. Current time: 9/11/25, 10:32:30 AM PKT
+// Elapsed time: 329 seconds
+selectCodeEditor("processor.sv", 139, 230); // cl (w, aM)
+// Elapsed time: 20 seconds
+selectCodeEditor("processor.sv", 81, 592); // cl (w, aM)
+// Elapsed time: 95 seconds
+selectCodeEditor("processor.sv", 161, 421); // cl (w, aM)
+selectCodeEditor("processor.sv", 157, 445); // cl (w, aM)
+selectCodeEditor("processor.sv", 144, 446); // cl (w, aM)
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ID_EX_Stage.sv", 3); // k (j, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 84, 203); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 22, 171); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 258, 319); // cl (w, cl)
+selectCodeEditor("processor.sv", 137, 419); // cl (w, aM)
+selectCodeEditor("processor.sv", 104, 400); // cl (w, aM)
+selectCodeEditor("processor.sv", 76, 482); // cl (w, aM)
+selectCodeEditor("processor.sv", 77, 339); // cl (w, aM)
+selectCodeEditor("processor.sv", 137, 366); // cl (w, aM)
+selectCodeEditor("processor.sv", 228, 344); // cl (w, aM)
+selectCodeEditor("processor.sv", 221, 325); // cl (w, aM)
+selectCodeEditor("processor.sv", 132, 367); // cl (w, aM)
+selectCodeEditor("processor.sv", 114, 357); // cl (w, aM)
+selectCodeEditor("processor.sv", 299, 375); // cl (w, aM)
+selectCodeEditor("MEM_WB_Stage.sv", 116, 368); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 20, 167); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 199, 179); // cl (w, cl)
+selectCodeEditor("processor.sv", 131, 349); // cl (w, aM)
+selectCodeEditor("processor.sv", 302, 352); // cl (w, aM)
+selectCodeEditor("processor.sv", 80, 392); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectCodeEditor("processor.sv", 168, 415); // cl (w, aM)
+// Elapsed time: 33 seconds
+selectCodeEditor("processor.sv", 259, 361); // cl (w, aM)
+selectCodeEditor("processor.sv", 248, 369); // cl (w, aM)
+// Elapsed time: 38 seconds
+selectCodeEditor("processor.sv", 628, 376); // cl (w, aM)
+selectCodeEditor("processor.sv", 634, 373); // cl (w, aM)
+selectCodeEditor("processor.sv", 645, 369); // cl (w, aM)
+selectCodeEditor("processor.sv", 59, 292); // cl (w, aM)
+typeControlKey((HResource) null, "processor.sv", 'c'); // cl (w, aM)
+selectCodeEditor("processor.sv", 174, 395); // cl (w, aM)
+typeControlKey((HResource) null, "processor.sv", 'v'); // cl (w, aM)
+// Elapsed time: 11 seconds
+selectCodeEditor("processor.sv", 102, 570); // cl (w, aM)
+selectCodeEditor("processor.sv", 71, 414); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 182, 414); // cl (w, aM)
+// Elapsed time: 34 seconds
+selectCodeEditor("processor.sv", 219, 413); // cl (w, aM)
+// Elapsed time: 43 seconds
+selectCodeEditor("processor.sv", 237, 489); // cl (w, aM)
+selectCodeEditor("processor.sv", 245, 493); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 214, 554); // cl (w, aM)
+selectCodeEditor("processor.sv", 183, 559); // cl (w, aM)
+selectCodeEditor("processor.sv", 123, 533); // cl (w, aM)
+// Elapsed time: 20 seconds
+selectCodeEditor("processor.sv", 122, 544); // cl (w, aM)
+selectCodeEditor("processor.sv", 157, 489); // cl (w, aM)
+selectCodeEditor("processor.sv", 174, 423); // cl (w, aM)
+selectCodeEditor("processor.sv", 206, 529); // cl (w, aM)
+selectCodeEditor("processor.sv", 141, 238); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+selectCodeEditor("processor.sv", 195, 536); // cl (w, aM)
+selectCodeEditor("processor.sv", 195, 536, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("processor.sv", 172, 211); // cl (w, aM)
+selectCodeEditor("processor.sv", 172, 211, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("processor.sv", 40, 155); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectCodeEditor("processor.sv", 213, 291); // cl (w, aM)
+selectCodeEditor("processor.sv", 213, 290, false, false, false, false, true); // cl (w, aM) - Double Click
+typeControlKey((HResource) null, "processor.sv", 'v'); // cl (w, aM)
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 22 seconds
+selectCodeEditor("processor.sv", 387, 290); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 205, 333); // cl (w, aM)
+selectCodeEditor("processor.sv", 145, 330); // cl (w, aM)
+selectCodeEditor("processor.sv", 173, 66); // cl (w, aM)
+selectCodeEditor("processor.sv", 107, 54); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+typeControlKey(null, null, 'z');
+selectCodeEditor("processor.sv", 35, 47); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("processor.sv", 114, 64); // cl (w, aM)
+// Elapsed time: 17 seconds
+selectCodeEditor("processor.sv", 89, 531); // cl (w, aM)
+selectCodeEditor("processor.sv", 77, 529); // cl (w, aM)
+selectCodeEditor("processor.sv", 122, 105); // cl (w, aM)
+selectCodeEditor("processor.sv", 129, 91); // cl (w, aM)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+selectCodeEditor("processor.sv", 63, 389); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("processor.sv", 139, 378); // cl (w, aM)
+selectCodeEditor("processor.sv", 160, 332); // cl (w, aM)
+selectCodeEditor("processor.sv", 170, 269); // cl (w, aM)
+selectCodeEditor("processor.sv", 146, 350); // cl (w, aM)
+// Elapsed time: 40 seconds
+selectCodeEditor("processor.sv", 173, 215); // cl (w, aM)
+selectCodeEditor("processor.sv", 173, 215, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("processor.sv", 170, 584); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 92, 314); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 38 seconds
+selectCodeEditor("processor.sv", 173, 602); // cl (w, aM)
+selectCodeEditor("processor.sv", 174, 590); // cl (w, aM)
+selectCodeEditor("processor.sv", 84, 751); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 103 seconds
+selectCodeEditor("processor.sv", 52, 150); // cl (w, aM)
+selectCodeEditor("processor.sv", 201, 155); // cl (w, aM)
+selectCodeEditor("processor.sv", 65, 516); // cl (w, aM)
+selectCodeEditor("processor.sv", 96, 612); // cl (w, aM)
+selectCodeEditor("processor.sv", 157, 643); // cl (w, aM)
+// Elapsed time: 18 seconds
+selectCodeEditor("processor.sv", 864, 444); // cl (w, aM)
+typeControlKey((HResource) null, "processor.sv", 'c'); // cl (w, aM)
+// Elapsed time: 57 seconds
+selectCodeEditor("processor.sv", 959, 540); // cl (w, aM)
+// Elapsed time: 77 seconds
+selectCodeEditor("processor.sv", 141, 208); // cl (w, aM)
+// Elapsed time: 68 seconds
+selectCodeEditor("processor.sv", 177, 410); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectCodeEditor("processor.sv", 141, 427); // cl (w, aM)
+selectCodeEditor("processor.sv", 214, 433); // cl (w, aM)
+selectCodeEditor("processor.sv", 363, 438); // cl (w, aM)
+selectCodeEditor("processor.sv", 555, 427); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("processor.sv", 632, 690); // cl (w, aM)
+// Elapsed time: 26 seconds
+selectCodeEditor("processor.sv", 106, 651); // cl (w, aM)
+// Elapsed time: 15 seconds
+selectCodeEditor("processor.sv", 166, 518); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 180, 491); // cl (w, aM)
+selectCodeEditor("processor.sv", 167, 489); // cl (w, aM)
+selectCodeEditor("processor.sv", 139, 635); // cl (w, aM)
+selectCodeEditor("processor.sv", 132, 701); // cl (w, aM)
+selectCodeEditor("processor.sv", 99, 680); // cl (w, aM)
+selectCodeEditor("processor.sv", 99, 687); // cl (w, aM)
+selectCodeEditor("processor.sv", 91, 656); // cl (w, aM)
+selectCodeEditor("processor.sv", 87, 634); // cl (w, aM)
+selectCodeEditor("processor.sv", 84, 633, false, false, false, false, true); // cl (w, aM) - Double Click
+selectCodeEditor("processor.sv", 175, 655); // cl (w, aM)
+selectCodeEditor("processor.sv", 92, 656); // cl (w, aM)
+selectCodeEditor("processor.sv", 134, 680); // cl (w, aM)
+selectCodeEditor("processor.sv", 96, 672); // cl (w, aM)
+selectCodeEditor("processor.sv", 130, 707); // cl (w, aM)
+selectCodeEditor("processor.sv", 99, 691); // cl (w, aM)
+// Elapsed time: 26 seconds
+selectCodeEditor("processor.sv", 144, 635); // cl (w, aM)
+selectCodeEditor("processor.sv", 89, 626); // cl (w, aM)
+// Elapsed time: 49 seconds
+selectCodeEditor("MEM_WB_Stage.sv", 105, 435); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 51 seconds
+selectCodeEditor("MEM_WB_Stage.sv", 191, 523); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 116, 458); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 65, 471); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 303, 472); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+selectCodeEditor("MEM_WB_Stage.sv", 206, 490); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 309, 494); // cl (w, cl)
+typeControlKey((HResource) null, "MEM_WB_Stage.sv", 'v'); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 248, 510); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 177, 533); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 110, 550); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 75, 533); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 39 seconds
+selectCodeEditor("processor.sv", 265, 628); // cl (w, aM)
+// Elapsed time: 14 seconds
+selectCodeEditor("processor.sv", 95, 693); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 186, 559); // cl (w, aM)
+selectCodeEditor("processor.sv", 190, 539); // cl (w, aM)
+selectCodeEditor("processor.sv", 207, 562); // cl (w, aM)
+selectCodeEditor("processor.sv", 192, 565); // cl (w, aM)
+selectCodeEditor("processor.sv", 178, 538); // cl (w, aM)
+selectCodeEditor("processor.sv", 170, 583); // cl (w, aM)
+selectCodeEditor("processor.sv", 152, 566); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor("processor.sv", 227, 412); // cl (w, aM)
+selectCodeEditor("processor.sv", 256, 424); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 33 seconds
+selectCodeEditor("processor.sv", 205, 637); // cl (w, aM)
+selectCodeEditor("processor.sv", 236, 271); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("processor.sv", 185, 466); // cl (w, aM)
+selectCodeEditor("processor.sv", 178, 472); // cl (w, aM)
+selectCodeEditor("processor.sv", 224, 593); // cl (w, aM)
+selectCodeEditor("processor.sv", 99, 739); // cl (w, aM)
+selectCodeEditor("EX_MEM_Stage.sv", 291, 345); // cl (w, cl)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("MEM_WB_Stage.sv", 105, 300); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 133, 545); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 233, 533); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 198, 373); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 216, 343); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 275, 353); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 276, 328); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 120, 528); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 216, 520); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 237, 506); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("MEM_WB_Stage.sv", 198, 621); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 254, 637); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 284, 645); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 24 seconds
+selectCodeEditor("processor.sv", 101, 597); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 58 seconds
+selectCodeEditor("processor.sv", 137, 476); // cl (w, aM)
+selectCodeEditor("processor.sv", 125, 529); // cl (w, aM)
+// Elapsed time: 17 seconds
+selectCodeEditor("processor.sv", 138, 216); // cl (w, aM)
+// Elapsed time: 44 seconds
+selectCodeEditor("processor.sv", 189, 222); // cl (w, aM)
+// Elapsed time: 11 seconds
+selectCodeEditor("processor.sv", 210, 357); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 67 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ALUControl", true); // l (aT, aM)
+// Elapsed time: 25 seconds
+selectCodeEditor("processor.sv", 235, 202); // cl (w, aM)
+selectCodeEditor("processor.sv", 476, 328); // cl (w, aM)
+selectButton(RDIResource.HCodeEditor_CLOSE, (String) null); // k (aL, aM)
+dockFrame(PAResourceOtoP.PAViews_CODE, "processor.sv"); // az (aK, aM)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "processor.sv"); // az (aK, aM)
+// PAResourceOtoP.PAViews_CODE: Code: dock view
+// Elapsed time: 90 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "processor.sv", 1); // k (j, cl)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "processor.sv", 1, false, true); // k (j, cl) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (aH, cl)
+selectButton(PAResourceAtoD.AbstractFileView_CLOSE, (String) null); // k (B, cl)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectCodeEditor("alu_control.sv", 342, 59); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 54 MB. Current time: 9/11/25, 11:02:31 AM PKT
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// PAResourceOtoP.PAViews_PROJECT_SUMMARY: Project Summary: close view
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "processor.sv", 0); // k (j, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 247, 231); // cl (w, cl)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectCodeEditor("processor.sv", 116, 229); // cl (w, cl)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // u (O, cl)
+// A (cl): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (cl)
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a100tcsg324-1 Top: processor 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,096 MB. GUI used memory: 54 MB. Current time: 9/11/25, 11:02:46 AM PKT
+// TclEventType: ELABORATE_START
+// TclEventType: ELABORATE_FINISH
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,503 MB. GUI used memory: 54 MB. Current time: 9/11/25, 11:02:57 AM PKT
+// [Engine Memory]: 1,503 MB (+778586kb) [10:16:35]
+// [Engine Memory]: 1,625 MB (+49540kb) [10:16:36]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [GUI Memory]: 123 MB (+1489kb) [10:16:36]
+// Schematic: addNotify
+// [GUI Memory]: 137 MB (+7759kb) [10:16:37]
+// TclEventType: CURR_DESIGN_SET
+// WARNING: HEventQueue.dispatchEvent() is taking  1326 ms.
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a100tcsg324-1 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1186.703 ; gain = 173.691 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: 	Parameter TYPE_LS bound to: 2'b00  	Parameter TYPE_B bound to: 2'b01  	Parameter TYPE_RI bound to: 2'b10  	Parameter TYPE_J bound to: 2'b11  
+// Tcl Message: INFO: [Synth 8-226] default block is never used [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu_control.sv:45] INFO: [Synth 8-226] default block is never used [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu_control.sv:60] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'alu_control' (8#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu_control.sv:3] INFO: [Synth 8-6157] synthesizing module 'ID_EX_Stage' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/ID_EX_Stage.sv:3] INFO: [Synth 8-6155] done synthesizing module 'ID_EX_Stage' (9#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/ID_EX_Stage.sv:3] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'alu' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu.sv:4] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'alu' (10#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu.sv:4] INFO: [Synth 8-6157] synthesizing module 'EX_MEM_Stage' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/EX_MEM_Stage.sv:5] INFO: [Synth 8-6155] done synthesizing module 'EX_MEM_Stage' (11#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/EX_MEM_Stage.sv:5] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'data_memory' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/data_memory.sv:3] 
+// Tcl Message: Reason is one or more of the following : 	1: Invalid write to RAM.  	2: Unable to determine number of words or word size in RAM.  	3: No valid read/write found for RAM.  RAM "data_mem_reg" dissolved into registers 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'data_memory' (12#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/data_memory.sv:3] INFO: [Synth 8-6157] synthesizing module 'MEM_WB_Stage' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/MEM_WB_Stage.sv:3] INFO: [Synth 8-6155] done synthesizing module 'MEM_WB_Stage' (13#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/MEM_WB_Stage.sv:3] INFO: [Synth 8-6155] done synthesizing module 'processor' (14#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/processor.sv:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1412.758 ; gain = 399.746 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1412.758 ; gain = 399.746 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1412.758 ; gain = 399.746 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1619.309 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:12 . Memory (MB): peak = 1713.703 ; gain = 700.691 
+// Tcl Message: 35 Infos, 37 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:16 . Memory (MB): peak = 1713.703 ; gain = 948.965 
+// [GUI Memory]: 144 MB (+693kb) [10:16:37]
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// Elapsed time: 15 seconds
+dismissDialog("Open Elaborated Design"); // by (cl)
+floatFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic (2)"); // az (aK, cl)
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: float view
+maximizeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic (2)"); // az (aK, aM)
+// Run Command: RDIResourceCommand.RDICommands_FIND
+// g (cl): Find: addNotify
+// Elapsed time: 37 seconds
+setText(PAResourceTtoZ.TclFindDialog_RESULT_NAME, "find_1"); // j (g)
+dismissDialog("Find"); // g (cl)
+selectCodeEditor("processor.sv", 178, 169); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cS, cl)
+// by (cl):  Reloading : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1713.703 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: 	Parameter TYPE_LS bound to: 2'b00  	Parameter TYPE_B bound to: 2'b01  	Parameter TYPE_RI bound to: 2'b10  	Parameter TYPE_J bound to: 2'b11  
+// Tcl Message: INFO: [Synth 8-226] default block is never used [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu_control.sv:45] INFO: [Synth 8-226] default block is never used [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu_control.sv:60] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'alu_control' (8#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu_control.sv:3] INFO: [Synth 8-6157] synthesizing module 'ID_EX_Stage' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/ID_EX_Stage.sv:3] INFO: [Synth 8-6155] done synthesizing module 'ID_EX_Stage' (9#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/ID_EX_Stage.sv:3] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'alu' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu.sv:4] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'alu' (10#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu.sv:4] INFO: [Synth 8-6157] synthesizing module 'EX_MEM_Stage' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/EX_MEM_Stage.sv:5] INFO: [Synth 8-6155] done synthesizing module 'EX_MEM_Stage' (11#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/EX_MEM_Stage.sv:5] INFO: [Synth 8-6157] synthesizing module 'data_memory' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/data_memory.sv:3] 
+// Tcl Message: Reason is one or more of the following : 	1: Invalid write to RAM.  	2: Unable to determine number of words or word size in RAM.  	3: No valid read/write found for RAM.  RAM "data_mem_reg" dissolved into registers 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'data_memory' (12#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/data_memory.sv:3] INFO: [Synth 8-6157] synthesizing module 'MEM_WB_Stage' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/MEM_WB_Stage.sv:3] INFO: [Synth 8-6155] done synthesizing module 'MEM_WB_Stage' (13#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/MEM_WB_Stage.sv:3] INFO: [Synth 8-6155] done synthesizing module 'processor' (14#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/processor.sv:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1780.660 ; gain = 66.957 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1801.992 ; gain = 88.289 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1801.992 ; gain = 88.289 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// [Engine Memory]: 1,751 MB (+47100kb) [10:17:58]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,751 MB. GUI used memory: 82 MB. Current time: 9/11/25, 11:04:19 AM PKT
+// Engine heap size: 1,751 MB. GUI used memory: 83 MB. Current time: 9/11/25, 11:04:19 AM PKT
+dockFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic (2)"); // az (aK, aM)
+maximizeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic (2)"); // az (aK, aM)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,751 MB. GUI used memory: 60 MB. Current time: 9/11/25, 11:04:21 AM PKT
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1085 ms.
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1801.992 ; gain = 88.289 
+dismissDialog("Reloading"); // by (cl)
+floatFrame(PAResourceOtoP.PAViews_CODE, "processor.sv"); // az (aK, cl)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+// Elapsed time: 10 seconds
+selectCodeEditor("processor.sv", 204, 615); // cl (w, aM)
+selectCodeEditor("processor.sv", 141, 667); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 131, 371); // cl (w, aM)
+selectCodeEditor("processor.sv", 249, 658); // cl (w, aM)
+// Elapsed time: 18 seconds
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cS, cl)
+// by (cl):  Reloading : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1801.992 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: 	Parameter TYPE_LS bound to: 2'b00  	Parameter TYPE_B bound to: 2'b01  	Parameter TYPE_RI bound to: 2'b10  	Parameter TYPE_J bound to: 2'b11  
+// Tcl Message: INFO: [Synth 8-226] default block is never used [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu_control.sv:45] INFO: [Synth 8-226] default block is never used [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu_control.sv:60] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'alu_control' (8#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu_control.sv:3] INFO: [Synth 8-6157] synthesizing module 'ID_EX_Stage' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/ID_EX_Stage.sv:3] INFO: [Synth 8-6155] done synthesizing module 'ID_EX_Stage' (9#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/ID_EX_Stage.sv:3] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'alu' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu.sv:4] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'alu' (10#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu.sv:4] INFO: [Synth 8-6157] synthesizing module 'EX_MEM_Stage' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/EX_MEM_Stage.sv:5] INFO: [Synth 8-6155] done synthesizing module 'EX_MEM_Stage' (11#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/EX_MEM_Stage.sv:5] INFO: [Synth 8-6157] synthesizing module 'data_memory' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/data_memory.sv:3] 
+// Tcl Message: Reason is one or more of the following : 	1: Invalid write to RAM.  	2: Unable to determine number of words or word size in RAM.  	3: No valid read/write found for RAM.  
+// Tcl Message: RAM "data_mem_reg" dissolved into registers 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,861 MB. GUI used memory: 85 MB. Current time: 9/11/25, 11:05:21 AM PKT
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'data_memory' (12#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/data_memory.sv:3] INFO: [Synth 8-6157] synthesizing module 'MEM_WB_Stage' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/MEM_WB_Stage.sv:3] INFO: [Synth 8-6155] done synthesizing module 'MEM_WB_Stage' (13#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/MEM_WB_Stage.sv:3] INFO: [Synth 8-6155] done synthesizing module 'processor' (14#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/processor.sv:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1891.883 ; gain = 89.891 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1913.070 ; gain = 111.078 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1913.070 ; gain = 111.078 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// [Engine Memory]: 1,873 MB (+36064kb) [10:19:02]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,874 MB. GUI used memory: 63 MB. Current time: 9/11/25, 11:05:24 AM PKT
+// Engine heap size: 1,874 MB. GUI used memory: 63 MB. Current time: 9/11/25, 11:05:24 AM PKT
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+floatFrame(PAResourceOtoP.PAViews_CODE, "processor.sv"); // az (aK, cl)
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,886 MB. GUI used memory: 62 MB. Current time: 9/11/25, 11:05:26 AM PKT
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1008 ms.
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+floatFrame(PAResourceOtoP.PAViews_CODE, "processor.sv"); // az (aK, cl)
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 2006.293 ; gain = 204.301 
+dismissDialog("Reloading"); // by (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cl):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 5 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// a (cl): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cl)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK (aH, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv)]", 1, true); // B (F, cl) - Node
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK (aH, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1,  Vivado Simulator 2019.1. ]", 28, true); // ah (O, cl) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1,  Vivado Simulator 2019.1. ]", 28); // ah (O, cl)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1,  Vivado Simulator 2019.1. ]", 28); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3823] variable 'RegWrite' might have multiple concurrent drivers [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/processor.sv:360]. ]", 29, true); // ah (O, cl) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\HamzaMateen\Architecture\_21_lab_RISC_V_Pipelining\_18_lab.srcs\sources_1\new\processor.sv;-;;-;16;-;line;-;360;-;;-;16;-;"); // ah (O, cl)
+// Elapsed time: 34 seconds
+selectCodeEditor("processor.sv", 441, 498); // cl (w, aM)
+selectCodeEditor("processor.sv", 119, 201); // cl (w, aM)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "RegWrite", true); // l (aT, aM)
+// Elapsed time: 43 seconds
+selectCodeEditor("processor.sv", 743, 602); // cl (w, aM)
+// Elapsed time: 460 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "RegWrite", true); // l (aT, aM)
+selectCodeEditor("processor.sv", 115, 38); // cl (w, aM)
+selectCodeEditor("processor.sv", 93, 22); // cl (w, aM)
+selectCodeEditor("processor.sv", 80, 24); // cl (w, aM)
+// Elapsed time: 58 seconds
+selectCodeEditor("processor.sv", 144, 452); // cl (w, aM)
+selectCodeEditor("processor.sv", 174, 257); // cl (w, aM)
+selectCodeEditor("processor.sv", 206, 260); // cl (w, aM)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("processor.sv", 114, 314); // cl (w, aM)
+selectCodeEditor("processor.sv", 160, 291); // cl (w, aM)
+selectCodeEditor("processor.sv", 206, 295); // cl (w, aM)
+selectCodeEditor("processor.sv", 116, 584); // cl (w, aM)
+selectCodeEditor("processor.sv", 130, 679); // cl (w, aM)
+selectCodeEditor("processor.sv", 110, 587); // cl (w, aM)
+// Elapsed time: 14 seconds
+selectCodeEditor("processor.sv", 164, 628); // cl (w, aM)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor("processor.sv", 101, 276); // cl (w, aM)
+selectCodeEditor("processor.sv", 105, 286); // cl (w, aM)
+selectCodeEditor("processor.sv", 227, 53); // cl (w, aM)
+// Elapsed time: 14 seconds
+selectCodeEditor("processor.sv", 93, 231); // cl (w, aM)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 29 seconds
+selectCodeEditor("processor.sv", 154, 409); // cl (w, aM)
+selectCodeEditor("processor.sv", 152, 458); // cl (w, aM)
+selectCodeEditor("processor.sv", 149, 231); // cl (w, aM)
+typeControlKey(null, null, 'z');
+selectCodeEditor("processor.sv", 42, 230); // cl (w, aM)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectButton(RDIResource.HCodeEditor_CLOSE, (String) null); // k (aL, aM)
+// Elapsed time: 22 seconds
+dockFrame(PAResourceOtoP.PAViews_CODE, "processor.sv"); // az (aK, aM)
+// PAResourceOtoP.PAViews_CODE: Code: dock view
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cl):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 4 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// a (cl): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3823] variable 'addr_rd' might have multiple concurrent drivers [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/processor.sv:368]. ]", 29, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\HamzaMateen\Architecture\_21_lab_RISC_V_Pipelining\_18_lab.srcs\sources_1\new\processor.sv;-;;-;16;-;line;-;368;-;;-;16;-;"); // ah (O, cl)
+selectCodeEditor("processor.sv", 155, 331); // cl (w, cl)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 152 MB (+873kb) [10:33:00]
+// Elapsed time: 14 seconds
+selectCodeEditor("processor.sv", 135, 238); // cl (w, cl)
+selectCodeEditor("processor.sv", 145, 489); // cl (w, cl)
+selectCodeEditor("processor.sv", 159, 166); // cl (w, cl)
+selectCodeEditor("processor.sv", 141, 143); // cl (w, cl)
+selectCodeEditor("processor.sv", 103, 154); // cl (w, cl)
+// Elapsed time: 36 seconds
+selectCodeEditor("processor.sv", 114, 228); // cl (w, cl)
+selectCodeEditor("processor.sv", 114, 258); // cl (w, cl)
+selectCodeEditor("processor.sv", 112, 317); // cl (w, cl)
+selectCodeEditor("processor.sv", 115, 355); // cl (w, cl)
+selectCodeEditor("processor.sv", 173, 343); // cl (w, cl)
+selectCodeEditor("processor.sv", 160, 366); // cl (w, cl)
+selectCodeEditor("processor.sv", 92, 365); // cl (w, cl)
+selectCodeEditor("processor.sv", 100, 314); // cl (w, cl)
+selectCodeEditor("processor.sv", 125, 314); // cl (w, cl)
+selectCodeEditor("processor.sv", 182, 308); // cl (w, cl)
+selectCodeEditor("processor.sv", 137, 309); // cl (w, cl)
+selectCodeEditor("processor.sv", 87, 264); // cl (w, cl)
+selectCodeEditor("processor.sv", 95, 303); // cl (w, cl)
+selectCodeEditor("processor.sv", 100, 327); // cl (w, cl)
+selectCodeEditor("processor.sv", 142, 340); // cl (w, cl)
+selectCodeEditor("processor.sv", 145, 373); // cl (w, cl)
+selectCodeEditor("processor.sv", 115, 344); // cl (w, cl)
+selectCodeEditor("processor.sv", 123, 278); // cl (w, cl)
+selectCodeEditor("processor.sv", 97, 261); // cl (w, cl)
+selectCodeEditor("processor.sv", 41, 174); // cl (w, cl)
+selectCodeEditor("processor.sv", 74, 202); // cl (w, cl)
+selectCodeEditor("processor.sv", 44, 183); // cl (w, cl)
+// Elapsed time: 16 seconds
+selectCodeEditor("processor.sv", 98, 419); // cl (w, cl)
+selectCodeEditor("processor.sv", 85, 415); // cl (w, cl)
+typeControlKey((HResource) null, "processor.sv", 'v'); // cl (w, cl)
+selectCodeEditor("processor.sv", 373, 407); // cl (w, cl)
+selectCodeEditor("processor.sv", 67, 418); // cl (w, cl)
+selectCodeEditor("processor.sv", 239, 407); // cl (w, cl)
+selectCodeEditor("processor.sv", 163, 533); // cl (w, cl)
+selectCodeEditor("processor.sv", 168, 500); // cl (w, cl)
+selectCodeEditor("processor.sv", 145, 533); // cl (w, cl)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 57 seconds
+selectCodeEditor("processor.sv", 171, 413); // cl (w, cl)
+selectCodeEditor("processor.sv", 441, 325); // cl (w, cl)
+selectCodeEditor("processor.sv", 222, 337); // cl (w, cl)
+selectCodeEditor("processor.sv", 40, 328); // cl (w, cl)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cS, cl)
+// by (cl):  Reloading : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// Tcl Message: INFO: [Synth 8-994] W_addr_rd is declared here [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/processor.sv:117] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2006.293 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: 	Parameter TYPE_LS bound to: 2'b00  	Parameter TYPE_B bound to: 2'b01  	Parameter TYPE_RI bound to: 2'b10  	Parameter TYPE_J bound to: 2'b11  
+// Tcl Message: INFO: [Synth 8-226] default block is never used [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu_control.sv:45] INFO: [Synth 8-226] default block is never used [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu_control.sv:60] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'alu_control' (8#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu_control.sv:3] INFO: [Synth 8-6157] synthesizing module 'ID_EX_Stage' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/ID_EX_Stage.sv:3] INFO: [Synth 8-6155] done synthesizing module 'ID_EX_Stage' (9#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/ID_EX_Stage.sv:3] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'alu' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu.sv:4] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'alu' (10#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/alu.sv:4] INFO: [Synth 8-6157] synthesizing module 'EX_MEM_Stage' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/EX_MEM_Stage.sv:5] INFO: [Synth 8-6155] done synthesizing module 'EX_MEM_Stage' (11#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/EX_MEM_Stage.sv:5] INFO: [Synth 8-6157] synthesizing module 'data_memory' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/data_memory.sv:3] 
+// Tcl Message: Reason is one or more of the following : 	1: Invalid write to RAM.  	2: Unable to determine number of words or word size in RAM.  	3: No valid read/write found for RAM.  RAM "data_mem_reg" dissolved into registers 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'data_memory' (12#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/data_memory.sv:3] INFO: [Synth 8-6157] synthesizing module 'MEM_WB_Stage' [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/MEM_WB_Stage.sv:3] INFO: [Synth 8-6155] done synthesizing module 'MEM_WB_Stage' (13#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/MEM_WB_Stage.sv:3] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'processor' (14#1) [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/processor.sv:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2006.293 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2006.293 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2006.293 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,889 MB. GUI used memory: 65 MB. Current time: 9/11/25, 11:22:20 AM PKT
+// Engine heap size: 1,889 MB. GUI used memory: 65 MB. Current time: 9/11/25, 11:22:20 AM PKT
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,917 MB. GUI used memory: 63 MB. Current time: 9/11/25, 11:22:22 AM PKT
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1023 ms.
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 2037.051 ; gain = 30.758 
+dismissDialog("Reloading"); // by (cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // k (j, cl)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aA, cl)
+closeTask("RTL Analysis", "Elaborated Design", "DesignTask.RTL_PLANNING");
+// by (cl):  Close : addNotify
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,917 MB. GUI used memory: 85 MB. Current time: 9/11/25, 11:22:34 AM PKT
+// Engine heap size: 1,917 MB. GUI used memory: 86 MB. Current time: 9/11/25, 11:22:34 AM PKT
+// TclEventType: CURR_DESIGN_SET
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Close"); // by (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // az (aK)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv)]", 1, true, false, false, false, true, false); // B (F, cl) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, cl)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ae (an, cl)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 19); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 20); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_processor (tb_processor.sv)]", 21, true); // B (F, cl) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_processor (tb_processor.sv)]", 21); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_processor (tb_processor.sv), RISC_V : processor (processor.sv)]", 22, true); // B (F, cl) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_processor (tb_processor.sv), RISC_V : processor (processor.sv)]", 22); // B (F, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,942 MB. GUI used memory: 64 MB. Current time: 9/11/25, 11:22:52 AM PKT
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv)]", 1, true, false, false, false, true, false); // B (F, cl) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, cl)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ae (an, cl)
+selectCodeEditor("processor.sv", 474, 342); // cl (w, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv)]", 1); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_processor (tb_processor.sv)]", 6); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 2); // B (F, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cl):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.sim/sim_1/behav/xsim/xvlog.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.sim/sim_1/behav/xsim/xvlog.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// a (cl): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cl)
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // az
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3823] variable 'addr_rd' might have multiple concurrent drivers [C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.srcs/sources_1/new/processor.sv:368]. ]", 23, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\HamzaMateen\Architecture\_21_lab_RISC_V_Pipelining\_18_lab.srcs\sources_1\new\processor.sv;-;;-;16;-;line;-;368;-;;-;16;-;"); // ah (O, cl)
+selectCodeEditor("processor.sv", 151, 248); // cl (w, cl)
+selectCodeEditor("processor.sv", 151, 213); // cl (w, cl)
+selectCodeEditor("processor.sv", 179, 213); // cl (w, cl)
+selectCodeEditor("processor.sv", 122, 235); // cl (w, cl)
+selectCodeEditor("processor.sv", 117, 165); // cl (w, cl)
+selectCodeEditor("processor.sv", 65, 171); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cl):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Built simulation snapshot tb_processor_behav  ****** Webtalk v2019.1 (64-bit)   **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019   **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.  source C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.sim/sim_1/behav/xsim/xsim.dir/tb_processor_behav/webtalk/xsim_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Thu Sep 11 11:23:42 2025... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_processor_behav -key {Behavioral:sim_1:Functional:tb_processor} -tclbatch {tb_processor.tcl} -view {C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/tb_register_file_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2019.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: open_wave_config C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/tb_register_file_behav.wcfg 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,942 MB. GUI used memory: 70 MB. Current time: 9/11/25, 11:23:46 AM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source tb_processor.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_processor_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 2037.051 ; gain = 0.000 
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog("Run Simulation"); // e (cl)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,942 MB. GUI used memory: 70 MB. Current time: 9/11/25, 11:23:49 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,942 MB. GUI used memory: 70 MB. Current time: 9/11/25, 11:23:50 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,942 MB. GUI used memory: 73 MB. Current time: 9/11/25, 11:23:51 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,942 MB. GUI used memory: 69 MB. Current time: 9/11/25, 11:23:51 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,942 MB. GUI used memory: 69 MB. Current time: 9/11/25, 11:23:53 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, data_mem[0:1023][7:0]]", 14); // a (r, cl)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,942 MB. GUI used memory: 69 MB. Current time: 9/11/25, 11:23:55 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+floatFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_register_file_behav.wcfg"); // az (aK, cl)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// RDIResource.RDIViews_WAVEFORM_VIEWER: tb_register_file_behav.wcfg: float view
+// HMemoryUtils.trashcanNow. Engine heap size: 1,942 MB. GUI used memory: 69 MB. Current time: 9/11/25, 11:23:58 AM PKT
+maximizeFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_register_file_behav.wcfg"); // az (aK, aM)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,942 MB. GUI used memory: 74 MB. Current time: 9/11/25, 11:24:00 AM PKT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM

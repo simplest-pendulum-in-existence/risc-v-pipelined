@@ -12,6 +12,7 @@ module MEM_WB_Stage (
     // data
     input logic [31:0] M_dataR, 
     input logic [ 4:0 ] M_addr_rd,
+    input logic [31:0] M_ALUResult,
     input logic [31:0] M_pc_next, // to cater the JUMP case 
     
     // OUTPUTs
@@ -22,6 +23,7 @@ module MEM_WB_Stage (
     // data
     output logic [31:0] W_dataR, 
     output logic [ 4:0 ] W_addr_rd,
+    output logic [31:0] W_ALUResult,
     output logic [31:0] W_pc_next
 ); 
 
@@ -31,12 +33,14 @@ module MEM_WB_Stage (
             W_MemToReg <= 1'b0;
             W_dataR    <= 32'b0;
             W_addr_rd  <= 5'b0;
+            W_ALUResult <= 32'b0;
             W_pc_next  <= 32'b0;
         end else begin
             W_RegWrite <= M_RegWrite;
             W_MemToReg <= M_MemToReg;
             W_dataR    <= M_dataR;
             W_addr_rd  <= M_addr_rd;
+            W_ALUResult <= M_ALUResult;
             W_pc_next  <= M_pc_next;
         end
     end   

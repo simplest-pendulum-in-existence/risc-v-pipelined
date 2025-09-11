@@ -16,6 +16,8 @@ module EX_MEM_Stage (
     // data 
     input logic [31:0] E_ALUResult,
     input logic [31:0] E_rs2,  // to act as data to be written 
+    input logic [ 2:0 ] E_funct3, 
+
     input logic [ 4:0 ] E_addr_rd, 
     input logic [31:0] E_pc_next, // pc + 4 basically.
     // NOTE: the pc won't proceed further from here, because 
@@ -32,6 +34,7 @@ module EX_MEM_Stage (
     // data 
     output logic [31:0] M_ALUResult,
     output logic [31:0] M_rs2, 
+    output logic [ 2:0 ] M_funct3, 
     output logic [ 4:0 ] M_addr_rd,
     output logic [31:0] M_pc_next
     );
@@ -45,6 +48,7 @@ module EX_MEM_Stage (
             M_MemToReg <= 1'b0; 
             M_ALUResult <= 32'b0; 
             M_rs2 <= 32'b0; 
+            M_funct3 <= 3'b0;
             M_addr_rd <= 5'b0; 
             M_pc_next <= 32'b0;
         end 
@@ -55,6 +59,7 @@ module EX_MEM_Stage (
             M_MemToReg <= E_MemToReg; 
             M_ALUResult <= E_ALUResult; 
             M_rs2 <=    E_rs2; 
+            M_funct3 <= E_funct3;
             M_addr_rd <= E_addr_rd; 
             M_pc_next <= E_pc_next;
         end 
