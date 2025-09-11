@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Sep  6 10:05:43 2025
+# Process ID: 21268
+# Current directory: C:/HamzaMateen/Architecture/_20_lab_sub_version
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7848 C:\HamzaMateen\Architecture\_20_lab_sub_version\_18_lab.xpr
+# Log file: C:/HamzaMateen/Architecture/_20_lab_sub_version/vivado.log
+# Journal file: C:/HamzaMateen/Architecture/_20_lab_sub_version\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/HamzaMateen/Architecture/_20_lab_sub_version/_18_lab.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg
+source tb_processor.tcl
+close_sim

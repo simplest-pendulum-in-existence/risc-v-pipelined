@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Sep 11 00:46:11 2025
+# Process ID: 11572
+# Current directory: C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9148 C:\HamzaMateen\Architecture\_21_lab_RISC_V_Pipelining\_18_lab.xpr
+# Log file: C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/vivado.log
+# Journal file: C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

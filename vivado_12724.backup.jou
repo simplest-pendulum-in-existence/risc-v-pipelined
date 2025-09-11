@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Sep  9 03:28:39 2025
+# Process ID: 12724
+# Current directory: C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15308 C:\HamzaMateen\Architecture\_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED\_18_lab.xpr
+# Log file: C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/vivado.log
+# Journal file: C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg
+source tb_processor.tcl
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg}
+close_sim
+close_project
+create_project risc_v_sarah_harris C:/HamzaMateen/Architecture/risc_v_sarah_harris -part xc7a100tcsg324-1
+close_project
+open_project C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg
+source tb_processor.tcl
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg}
+relaunch_sim
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg
+source tb_processor.tcl
+relaunch_sim
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg}
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg}
+relaunch_sim
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg}
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg}
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg}
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg}
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg}
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg}
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg}
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg}
+relaunch_sim
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg}
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/tb_register_file_behav.wcfg}
+close_sim

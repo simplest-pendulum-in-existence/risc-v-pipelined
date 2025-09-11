@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Sep  6 03:44:23 2025
+# Process ID: 14308
+# Current directory: C:/HamzaMateen/Architecture/_20_lab_sub_version
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9636 C:\HamzaMateen\Architecture\_20_lab_sub_version\_18_lab.xpr
+# Log file: C:/HamzaMateen/Architecture/_20_lab_sub_version/vivado.log
+# Journal file: C:/HamzaMateen/Architecture/_20_lab_sub_version\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/HamzaMateen/Architecture/_20_lab_sub_version/_18_lab.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg
+source tb_processor.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg}
+relaunch_sim
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg}
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg}
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg}
+relaunch_sim
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg
+source tb_processor.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg}
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg}
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg}
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg}
+relaunch_sim
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg}
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg}
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg}
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg}
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg}
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg}
+relaunch_sim
+current_wave_config {tb_register_file_behav.wcfg}
+add_wave {{/tb_processor/RISC_V/clk}} {{/tb_processor/RISC_V/rst}} {{/tb_processor/RISC_V/pc}} {{/tb_processor/RISC_V/pc_next}} {{/tb_processor/RISC_V/instr}} {{/tb_processor/RISC_V/OpCode}} {{/tb_processor/RISC_V/addr_rs1}} {{/tb_processor/RISC_V/addr_rs2}} {{/tb_processor/RISC_V/addr_rd}} {{/tb_processor/RISC_V/funct3}} {{/tb_processor/RISC_V/funct7}} {{/tb_processor/RISC_V/RegWrite}} {{/tb_processor/RISC_V/ALUSrc}} {{/tb_processor/RISC_V/ALUOp}} {{/tb_processor/RISC_V/MemWrite}} {{/tb_processor/RISC_V/MemRead}} {{/tb_processor/RISC_V/MemToReg}} {{/tb_processor/RISC_V/Jump}} {{/tb_processor/RISC_V/JumpSrc}} {{/tb_processor/RISC_V/Branch}} {{/tb_processor/RISC_V/result}} {{/tb_processor/RISC_V/ALUResult}} {{/tb_processor/RISC_V/rs1}} {{/tb_processor/RISC_V/rs2}} {{/tb_processor/RISC_V/pc_plus_4}} {{/tb_processor/RISC_V/write_data_src}} {{/tb_processor/RISC_V/immExt}} {{/tb_processor/RISC_V/rs2_src}} {{/tb_processor/RISC_V/ALUControl}} {{/tb_processor/RISC_V/IsZero}} {{/tb_processor/RISC_V/dataR}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/HamzaMateen/Architecture/_20_lab_sub_version/tb_register_file_behav.wcfg}
+close_sim

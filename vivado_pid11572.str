@@ -1,0 +1,999 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 11572
+License: Customer
+
+Current time: 	Thu Sep 11 00:46:32 PKT 2025
+Time zone: 	Pakistan Standard Time (Asia/Karachi)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 352 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	lab
+User home directory: C:/Users/lab
+User working directory: C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/lab/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/lab/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/lab/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/vivado.log
+Vivado journal file location: 	C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/vivado.jou
+Engine tmp dir: 	C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/.Xil/Vivado-11572-NCDC-0089
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	129 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 680 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\HamzaMateen\Architecture\_21_lab_RISC_V_Pipelining\_18_lab.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining/_18_lab.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 101 MB (+103692kb) [00:00:09]
+// [Engine Memory]: 656 MB (+535910kb) [00:00:09]
+// [GUI Memory]: 116 MB (+9871kb) [00:00:09]
+// WARNING: HEventQueue.dispatchEvent() is taking  2180 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 63 MB. Current time: 9/11/25, 12:46:32 AM PKT
+// Project name: _18_lab; location: C:/HamzaMateen/Architecture/_21_lab_RISC_V_Pipelining; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // by (cl)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 30 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // i (N, cl)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 2); // i (N, cl)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cl)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // i (N, cl)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 2); // i (N, cl)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv), PC : program_counter (program_counter.sv)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Elapsed time: 43 seconds
+selectCodeEditor("processor.sv", 170, 309); // cl (w, cl)
+selectCodeEditor("processor.sv", 60, 80); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectCodeEditor("processor.sv", 273, 384); // cl (w, cl)
+// Elapsed time: 454 seconds
+selectCodeEditor("processor.sv", 643, 146); // cl (w, cl)
+// Elapsed time: 310 seconds
+selectCodeEditor("processor.sv", 783, 325); // cl (w, cl)
+// [Engine Memory]: 689 MB (+256kb) [00:15:12]
+// Elapsed time: 364 seconds
+selectCodeEditor("processor.sv", 540, 413); // cl (w, cl)
+// Elapsed time: 135 seconds
+selectCodeEditor("processor.sv", 678, 330); // cl (w, cl)
+// Elapsed time: 114 seconds
+selectCodeEditor("processor.sv", 345, 290); // cl (w, cl)
+// Elapsed time: 14 seconds
+selectCodeEditor("processor.sv", 621, 310); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 689 MB. GUI used memory: 55 MB. Current time: 9/11/25, 1:16:37 AM PKT
+// Elapsed time: 611 seconds
+selectCodeEditor("processor.sv", 359, 232); // cl (w, cl)
+// Elapsed time: 25 seconds
+selectCodeEditor("processor.sv", 54, 95); // cl (w, cl)
+selectCodeEditor("processor.sv", 125, 313); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 696 MB. GUI used memory: 50 MB. Current time: 9/11/25, 1:46:39 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 696 MB. GUI used memory: 50 MB. Current time: 9/11/25, 2:16:42 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 696 MB. GUI used memory: 50 MB. Current time: 9/11/25, 2:46:45 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 696 MB. GUI used memory: 50 MB. Current time: 9/11/25, 3:16:47 AM PKT
+// Elapsed time: 8184 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEM_WB_Stage (MEM_WB_Stage.sv)]", 16, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEM_WB_Stage (MEM_WB_Stage.sv)]", 16, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX_MEM_Stage (EX_MEM_Stage.sv)]", 15, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX_MEM_Stage (EX_MEM_Stage.sv)]", 15, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEM_WB_Stage (MEM_WB_Stage.sv)]", 16, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX_MEM_Stage (EX_MEM_Stage.sv)]", 15, false); // B (F, cl)
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv), DMEM : data_memory (data_memory.sv)]", 13, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv), ALU_OR_MEM_OUT : mux_2x1 (mux_2x1.sv)]", 14, false); // B (F, cl)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv), ALU : alu (alu.sv)]", 12, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv), STAGE_2 : ID_EX_Stage (ID_EX_Stage.sv)]", 11, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv), ALU : alu (alu.sv)]", 12, false); // B (F, cl)
+// Elapsed time: 60 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv), STAGE_2 : ID_EX_Stage (ID_EX_Stage.sv)]", 11, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv), STAGE_2 : ID_EX_Stage (ID_EX_Stage.sv)]", 11, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv), STAGE_2 : ID_EX_Stage (ID_EX_Stage.sv)]", 11, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "2", true); // l (aT, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 701 MB. GUI used memory: 50 MB. Current time: 9/11/25, 3:40:29 AM PKT
+// Elapsed time: 69 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv)]", 1); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv), ALU_CTRL : alu_control (alu_control.sv)]", 10, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv), ALU_CTRL : alu_control (alu_control.sv)]", 10, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv), STAGE_2 : ID_EX_Stage (ID_EX_Stage.sv)]", 11, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv), STAGE_2 : ID_EX_Stage (ID_EX_Stage.sv)]", 11, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "stage_2", true); // l (aT, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("processor.sv", 101, 337); // cl (w, cl)
+selectCodeEditor("processor.sv", 107, 364); // cl (w, cl)
+selectCodeEditor("processor.sv", 120, 391); // cl (w, cl)
+// Elapsed time: 114 seconds
+selectCodeEditor("processor.sv", 140, 137); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 10 seconds
+selectCodeEditor("processor.sv", 97, 232); // cl (w, cl)
+selectCodeEditor("processor.sv", 67, 197); // cl (w, cl)
+selectCodeEditor("processor.sv", 80, 190); // cl (w, cl)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 36, 95); // cl (w, cl)
+selectCodeEditor("processor.sv", 30, 115); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 24 seconds
+selectCodeEditor("processor.sv", 38, 127); // cl (w, cl)
+selectCodeEditor("processor.sv", 78, 128); // cl (w, cl)
+selectCodeEditor("processor.sv", 37, 129); // cl (w, cl)
+selectCodeEditor("processor.sv", 71, 137); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 110, 233); // cl (w, cl)
+selectCodeEditor("processor.sv", 113, 164); // cl (w, cl)
+selectCodeEditor("processor.sv", 146, 296); // cl (w, cl)
+selectCodeEditor("processor.sv", 89, 338); // cl (w, cl)
+selectCodeEditor("processor.sv", 189, 90); // cl (w, cl)
+typeControlKey((HResource) null, "processor.sv", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("processor.sv", 42, 172); // cl (w, cl)
+selectCodeEditor("processor.sv", 95, 186); // cl (w, cl)
+selectCodeEditor("processor.sv", 92, 415); // cl (w, cl)
+typeControlKey((HResource) null, "processor.sv", 'v'); // cl (w, cl)
+selectCodeEditor("processor.sv", 13, 351); // cl (w, cl)
+selectCodeEditor("processor.sv", 67, 431); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 88, 325); // cl (w, cl)
+selectCodeEditor("processor.sv", 47, 60); // cl (w, cl)
+selectCodeEditor("processor.sv", 44, 32); // cl (w, cl)
+selectCodeEditor("processor.sv", 42, 54); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 34 seconds
+selectCodeEditor("processor.sv", 59, 32); // cl (w, cl)
+selectCodeEditor("processor.sv", 153, 308); // cl (w, cl)
+// Elapsed time: 138 seconds
+selectCodeEditor("processor.sv", 138, 463); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX_MEM_Stage (EX_MEM_Stage.sv)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX_MEM_Stage (EX_MEM_Stage.sv)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Elapsed time: 329 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX_MEM_Stage (EX_MEM_Stage.sv)]", 15, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX_MEM_Stage (EX_MEM_Stage.sv)]", 15, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "EX_MEM_Stage.sv", 5, true, false); // k (j, cl) - Popup Trigger
+selectMenuItem((HResource) null, "Split Vertically"); // JMenuItem (JidePopupMenu)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "processor.sv", 1); // k (j, cl)
+selectCodeEditor("processor.sv", 179, 312); // cl (w, cl)
+selectCodeEditor("processor.sv", 379, 322); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 57 seconds
+selectCodeEditor("processor.sv", 79, 493); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 20 seconds
+selectCodeEditor("processor.sv", 96, 529); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 20, 69); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 72, 337); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 19, 400); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 94, 413); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 17, 394); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 38, 421); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 0, 393); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 171, 485, false, false, false, true, false); // cl (w, cl) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ah (an, Popup.HeavyWeightWindow)
+selectCodeEditor("processor.sv", 122, 537); // cl (w, cl)
+typeControlKey((HResource) null, "processor.sv", 'v'); // cl (w, cl)
+selectCodeEditor("processor.sv", 61, 492); // cl (w, cl)
+selectCodeEditor("processor.sv", 12, 500); // cl (w, cl)
+selectCodeEditor("processor.sv", 19, 491, false, true, false, false, false); // cl (w, cl) - Control Key
+selectCodeEditor("processor.sv", 285, 479); // cl (w, cl)
+selectCodeEditor("processor.sv", 285, 474, false, true, false, false, false); // cl (w, cl) - Control Key
+selectCodeEditor("processor.sv", 300, 499); // cl (w, cl)
+selectCodeEditor("processor.sv", 300, 451); // cl (w, cl)
+selectCodeEditor("processor.sv", 300, 450, false, true, false, false, true); // cl (w, cl) - Control Key - Double Click
+selectCodeEditor("processor.sv", 300, 450, false, true, false, false, false); // cl (w, cl) - Control Key
+selectCodeEditor("processor.sv", 299, 450); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 42, 506); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 181, 511); // cl (w, cl)
+selectCodeEditor("processor.sv", 191, 501); // cl (w, cl)
+// Elapsed time: 13 seconds
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectCodeEditor("processor.sv", 140, 406); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("EX_MEM_Stage.sv", 70, 453); // cl (w, cl)
+// Elapsed time: 40 seconds
+selectCodeEditor("processor.sv", 109, 199); // cl (w, cl)
+selectCodeEditor("processor.sv", 94, 234); // cl (w, cl)
+// Elapsed time: 43 seconds
+selectCodeEditor("processor.sv", 80, 81); // cl (w, cl)
+selectCodeEditor("processor.sv", 67, 163); // cl (w, cl)
+selectCodeEditor("processor.sv", 55, 183); // cl (w, cl)
+selectCodeEditor("processor.sv", 74, 246); // cl (w, cl)
+selectCodeEditor("processor.sv", 43, 232); // cl (w, cl)
+selectCodeEditor("processor.sv", 164, 280); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 721 MB. GUI used memory: 54 MB. Current time: 9/11/25, 3:58:35 AM PKT
+selectCodeEditor("processor.sv", 38, 405); // cl (w, cl)
+selectCodeEditor("processor.sv", 66, 491); // cl (w, cl)
+selectCodeEditor("processor.sv", 18, 406); // cl (w, cl)
+selectCodeEditor("processor.sv", 58, 502); // cl (w, cl)
+selectCodeEditor("processor.sv", 70, 497); // cl (w, cl)
+selectCodeEditor("processor.sv", 38, 446); // cl (w, cl)
+selectCodeEditor("processor.sv", 53, 516); // cl (w, cl)
+selectCodeEditor("processor.sv", 76, 509); // cl (w, cl)
+selectCodeEditor("processor.sv", 44, 497); // cl (w, cl)
+selectCodeEditor("processor.sv", 63, 486); // cl (w, cl)
+selectCodeEditor("processor.sv", 22, 427); // cl (w, cl)
+selectCodeEditor("processor.sv", 52, 500); // cl (w, cl)
+selectCodeEditor("processor.sv", 31, 486); // cl (w, cl)
+selectCodeEditor("processor.sv", 156, 442); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 721 MB. GUI used memory: 54 MB. Current time: 9/11/25, 4:28:35 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 721 MB. GUI used memory: 53 MB. Current time: 9/11/25, 4:58:35 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 723 MB. GUI used memory: 53 MB. Current time: 9/11/25, 5:28:36 AM PKT
+// Elapsed time: 5570 seconds
+selectCodeEditor("processor.sv", 265, 376); // cl (w, cl)
+selectCodeEditor("processor.sv", 77, 445); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 38 seconds
+selectCodeEditor("processor.sv", 54, 458); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 151, 451); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 50 seconds
+selectCodeEditor("processor.sv", 124, 451); // cl (w, cl)
+// Elapsed time: 11 seconds
+selectCodeEditor("EX_MEM_Stage.sv", 190, 89); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+selectCodeEditor("processor.sv", 364, 279); // cl (w, cl)
+selectCodeEditor("processor.sv", 83, 454); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("EX_MEM_Stage.sv", 13, 193); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 205, 400); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 186, 450); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 118, 227); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 10, 183); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 2, 193); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 166, 448); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 45, 454); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 209, 332); // cl (w, cl)
+// Elapsed time: 30 seconds
+selectCodeEditor("processor.sv", 154, 448); // cl (w, cl)
+// Elapsed time: 15 seconds
+selectCodeEditor("processor.sv", 91, 228); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("processor.sv", 99, 442); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 119, 392); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 118, 427); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("EX_MEM_Stage.sv", 117, 466); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 134, 458); // cl (w, cl)
+selectCodeEditor("processor.sv", 93, 454); // cl (w, cl)
+selectCodeEditor("processor.sv", 118, 443); // cl (w, cl)
+// [Engine Memory]: 724 MB (+825kb) [04:49:35]
+// Elapsed time: 50 seconds
+selectCodeEditor("processor.sv", 171, 373); // cl (w, cl)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("processor.sv", 240, 417); // cl (w, cl)
+selectCodeEditor("processor.sv", 101, 453); // cl (w, cl)
+// Elapsed time: 55 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // az
+// Elapsed time: 48 seconds
+selectCodeEditor("processor.sv", 206, 297); // cl (w, cl)
+selectCodeEditor("processor.sv", 198, 315); // cl (w, cl)
+selectCodeEditor("processor.sv", 182, 330); // cl (w, cl)
+selectCodeEditor("processor.sv", 59, 290); // cl (w, cl)
+selectCodeEditor("processor.sv", 224, 631); // cl (w, cl)
+selectCodeEditor("processor.sv", 133, 353); // cl (w, cl)
+selectCodeEditor("processor.sv", 80, 155); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 258, 242); // cl (w, cl)
+// Elapsed time: 16 seconds
+selectCodeEditor("processor.sv", 150, 430); // cl (w, cl)
+selectCodeEditor("processor.sv", 188, 154); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 379 seconds
+selectCodeEditor("processor.sv", 92, 499); // cl (w, cl)
+selectCodeEditor("processor.sv", 60, 332); // cl (w, cl)
+typeControlKey((HResource) null, "processor.sv", 'c'); // cl (w, cl)
+selectCodeEditor("processor.sv", 119, 485); // cl (w, cl)
+typeControlKey((HResource) null, "processor.sv", 'v'); // cl (w, cl)
+selectCodeEditor("processor.sv", 60, 491); // cl (w, cl)
+selectCodeEditor("processor.sv", 64, 507, false, true, true, false, false); // cl (w, cl) - Control Key - Alt Key
+selectCodeEditor("processor.sv", 85, 488, false, true, true, false, false); // cl (w, cl) - Control Key - Alt Key
+selectCodeEditor("processor.sv", 85, 488, false, true, true, false, false); // cl (w, cl) - Control Key - Alt Key
+selectCodeEditor("processor.sv", 222, 438); // cl (w, cl)
+selectCodeEditor("processor.sv", 222, 436, false, true, true, false, false); // cl (w, cl) - Control Key - Alt Key
+selectCodeEditor("processor.sv", 174, 484, false, true, true, false, false); // cl (w, cl) - Control Key - Alt Key
+selectCodeEditor("processor.sv", 131, 545); // cl (w, cl)
+selectCodeEditor("processor.sv", 84, 507); // cl (w, cl)
+selectCodeEditor("processor.sv", 58, 507); // cl (w, cl)
+// Elapsed time: 36 seconds
+selectCodeEditor("processor.sv", 72, 498); // cl (w, cl)
+selectCodeEditor("processor.sv", 86, 371); // cl (w, cl)
+selectCodeEditor("processor.sv", 89, 323); // cl (w, cl)
+selectCodeEditor("processor.sv", 127, 334); // cl (w, cl)
+selectCodeEditor("processor.sv", 204, 325); // cl (w, cl)
+selectCodeEditor("processor.sv", 204, 325, false, false, false, false, true); // cl (w, cl) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 92 seconds
+selectCodeEditor("processor.sv", 63, 684); // cl (w, cl)
+selectCodeEditor("processor.sv", 72, 673); // cl (w, cl)
+// Elapsed time: 64 seconds
+selectCodeEditor("processor.sv", 74, 442); // cl (w, cl)
+selectCodeEditor("processor.sv", 51, 445); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 34 seconds
+selectCodeEditor("processor.sv", 200, 588); // cl (w, cl)
+selectCodeEditor("processor.sv", 200, 588, false, false, false, false, true); // cl (w, cl) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 64 seconds
+selectCodeEditor("processor.sv", 37, 75); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 165, 503); // cl (w, cl)
+// Elapsed time: 40 seconds
+selectCodeEditor("processor.sv", 65, 274); // cl (w, cl)
+selectCodeEditor("processor.sv", 211, 551); // cl (w, cl)
+selectCodeEditor("processor.sv", 216, 596); // cl (w, cl)
+selectCodeEditor("processor.sv", 159, 574); // cl (w, cl)
+selectCodeEditor("processor.sv", 152, 561); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 165, 592); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+selectCodeEditor("processor.sv", 210, 539); // cl (w, cl)
+selectCodeEditor("processor.sv", 94, 512); // cl (w, cl)
+selectCodeEditor("processor.sv", 60, 493); // cl (w, cl)
+selectCodeEditor("processor.sv", 337, 549); // cl (w, cl)
+selectCodeEditor("processor.sv", 155, 543); // cl (w, cl)
+selectCodeEditor("processor.sv", 115, 546); // cl (w, cl)
+selectCodeEditor("processor.sv", 20, 454); // cl (w, cl)
+selectCodeEditor("processor.sv", 12, 412); // cl (w, cl)
+selectCodeEditor("processor.sv", 146, 544); // cl (w, cl)
+selectCodeEditor("processor.sv", 20, 392); // cl (w, cl)
+selectCodeEditor("processor.sv", 169, 573); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MEM_WB_Stage.sv", 2); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "processor.sv", 1); // k (j, cl)
+selectCodeEditor("processor.sv", 128, 393); // cl (w, cl)
+selectCodeEditor("processor.sv", 2, 192); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 140, 473); // cl (w, cl)
+selectCodeEditor("processor.sv", 37, 80); // cl (w, cl)
+selectCodeEditor("processor.sv", 101, 350); // cl (w, cl)
+selectCodeEditor("processor.sv", 94, 367); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 212, 367); // cl (w, cl)
+selectCodeEditor("processor.sv", 265, 317); // cl (w, cl)
+selectCodeEditor("processor.sv", 250, 416); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("processor.sv", 0, 189); // cl (w, cl)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 166, 358); // cl (w, cl)
+selectCodeEditor("processor.sv", 94, 580); // cl (w, cl)
+// Elapsed time: 49 seconds
+selectCodeEditor("processor.sv", 88, 218); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 22 seconds
+selectCodeEditor("processor.sv", 115, 233); // cl (w, cl)
+selectCodeEditor("processor.sv", 55, 676); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 25 seconds
+selectCodeEditor("processor.sv", 208, 226); // cl (w, cl)
+// Elapsed time: 170 seconds
+selectCodeEditor("processor.sv", 105, 395); // cl (w, cl)
+selectCodeEditor("processor.sv", 103, 408); // cl (w, cl)
+selectCodeEditor("processor.sv", 90, 362); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("EX_MEM_Stage.sv", 462, 128); // cl (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEM_WB_Stage (MEM_WB_Stage.sv)]", 16, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEM_WB_Stage (MEM_WB_Stage.sv)]", 16, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectCodeEditor("MEM_WB_Stage.sv", 333, 158); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 97, 102); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 110, 112); // cl (w, cl)
+selectCodeEditor("EX_MEM_Stage.sv", 110, 112, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEM_WB_Stage (MEM_WB_Stage.sv)]", 16, false); // B (F, cl)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectCodeEditor("EX_MEM_Stage.sv", 283, 172); // cl (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEM_WB_Stage (MEM_WB_Stage.sv)]", 16, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEM_WB_Stage (MEM_WB_Stage.sv)]", 16, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEM_WB_Stage (MEM_WB_Stage.sv)]", 16, false, false, false, false, false, true); // B (F, cl) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectCodeEditor("ID_EX_Stage.sv", 355, 207); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 112, 625); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 223, 66); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 219, 71); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("ID_EX_Stage.sv", 224, 172); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 263, 188); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("ID_EX_Stage.sv", 251, 231); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 300, 374); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "processor.sv", 1); // k (j, cl)
+selectCodeEditor("processor.sv", 126, 260); // cl (w, cl)
+selectCodeEditor("processor.sv", 227, 228); // cl (w, cl)
+// Elapsed time: 33 seconds
+selectCodeEditor("processor.sv", 40, 646); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 729 MB. GUI used memory: 54 MB. Current time: 9/11/25, 5:58:37 AM PKT
+// Elapsed time: 24 seconds
+selectCodeEditor("processor.sv", 125, 408); // cl (w, cl)
+typeControlKey((HResource) null, "processor.sv", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 70 seconds
+selectCodeEditor("processor.sv", 68, 402); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 57 seconds
+selectCodeEditor("MEM_WB_Stage.sv", 145, 352); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 167, 350); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 167, 350, false, false, false, false, true); // cl (w, cl) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 72 seconds
+selectCodeEditor("MEM_WB_Stage.sv", 83, 449); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 83, 570); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 37 seconds
+selectCodeEditor("processor.sv", 164, 343); // cl (w, cl)
+selectCodeEditor("processor.sv", 204, 345); // cl (w, cl)
+selectCodeEditor("processor.sv", 189, 306); // cl (w, cl)
+selectCodeEditor("processor.sv", 223, 318); // cl (w, cl)
+selectCodeEditor("processor.sv", 205, 329); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 33 seconds
+selectCodeEditor("MEM_WB_Stage.sv", 310, 372); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 306, 471); // cl (w, cl)
+selectCodeEditor("processor.sv", 119, 336); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor("MEM_WB_Stage.sv", 255, 192); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+selectCodeEditor("processor.sv", 77, 584); // cl (w, cl)
+// Elapsed time: 27 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 32 seconds
+selectCodeEditor("processor.sv", 245, 635); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 54 MB. Current time: 9/11/25, 6:28:38 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 54 MB. Current time: 9/11/25, 6:58:38 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 53 MB. Current time: 9/11/25, 7:28:38 AM PKT
+// Elapsed time: 6445 seconds
+selectCodeEditor("processor.sv", 210, 248); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 23 seconds
+selectCodeEditor("processor.sv", 81, 319); // cl (w, cl)
+selectCodeEditor("processor.sv", 73, 295); // cl (w, cl)
+selectCodeEditor("processor.sv", 49, 254); // cl (w, cl)
+selectCodeEditor("processor.sv", 88, 249); // cl (w, cl)
+// Elapsed time: 18 seconds
+selectCodeEditor("processor.sv", 119, 124); // cl (w, cl)
+selectCodeEditor("processor.sv", 132, 67); // cl (w, cl)
+selectCodeEditor("processor.sv", 148, 434); // cl (w, cl)
+selectCodeEditor("processor.sv", 164, 374); // cl (w, cl)
+selectCodeEditor("processor.sv", 233, 370); // cl (w, cl)
+// Elapsed time: 14 seconds
+selectCodeEditor("processor.sv", 171, 392); // cl (w, cl)
+selectCodeEditor("processor.sv", 278, 388); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 23 seconds
+selectCodeEditor("processor.sv", 425, 402); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 12 seconds
+selectCodeEditor("processor.sv", 94, 493); // cl (w, cl)
+selectCodeEditor("processor.sv", 94, 493, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("processor.sv", 116, 519); // cl (w, cl)
+selectCodeEditor("processor.sv", 109, 519); // cl (w, cl)
+selectCodeEditor("processor.sv", 109, 519, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 172 seconds
+selectCodeEditor("MEM_WB_Stage.sv", 178, 319); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 56, 251); // cl (w, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("processor.sv", 91, 503); // cl (w, cl)
+selectCodeEditor("processor.sv", 91, 503, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("processor.sv", 93, 486); // cl (w, cl)
+selectCodeEditor("processor.sv", 93, 486, false, false, false, false, true); // cl (w, cl) - Double Click
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 35 seconds
+selectCodeEditor("processor.sv", 148, 530); // cl (w, cl)
+selectCodeEditor("processor.sv", 148, 530, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("processor.sv", 95, 527); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 736 MB. GUI used memory: 54 MB. Current time: 9/11/25, 7:58:39 AM PKT
+// Elapsed time: 14 seconds
+selectCodeEditor("processor.sv", 185, 328); // cl (w, cl)
+// Elapsed time: 23 seconds
+selectCodeEditor("processor.sv", 548, 132); // cl (w, cl)
+selectCodeEditor("processor.sv", 68, 525); // cl (w, cl)
+selectCodeEditor("processor.sv", 68, 512); // cl (w, cl)
+selectCodeEditor("processor.sv", 108, 497); // cl (w, cl)
+selectCodeEditor("processor.sv", 111, 490); // cl (w, cl)
+selectCodeEditor("processor.sv", 111, 490, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("processor.sv", 61, 478); // cl (w, cl)
+selectCodeEditor("processor.sv", 209, 482); // cl (w, cl)
+selectCodeEditor("processor.sv", 218, 467); // cl (w, cl)
+selectCodeEditor("processor.sv", 58, 509); // cl (w, cl)
+selectCodeEditor("processor.sv", 58, 500); // cl (w, cl)
+selectCodeEditor("processor.sv", 143, 508); // cl (w, cl)
+selectCodeEditor("processor.sv", 152, 489); // cl (w, cl)
+selectCodeEditor("processor.sv", 34, 484); // cl (w, cl)
+selectCodeEditor("processor.sv", 37, 411); // cl (w, cl)
+selectCodeEditor("processor.sv", 40, 553); // cl (w, cl)
+selectCodeEditor("processor.sv", 52, 512); // cl (w, cl)
+selectCodeEditor("processor.sv", 39, 517); // cl (w, cl)
+selectCodeEditor("processor.sv", 37, 407); // cl (w, cl)
+selectCodeEditor("processor.sv", 63, 526); // cl (w, cl)
+selectCodeEditor("processor.sv", 66, 506); // cl (w, cl)
+selectCodeEditor("processor.sv", 26, 454); // cl (w, cl)
+selectCodeEditor("processor.sv", 41, 405); // cl (w, cl)
+selectCodeEditor("processor.sv", 47, 520); // cl (w, cl)
+selectCodeEditor("processor.sv", 54, 504); // cl (w, cl)
+selectCodeEditor("processor.sv", 32, 543); // cl (w, cl)
+selectCodeEditor("processor.sv", 33, 407); // cl (w, cl)
+selectCodeEditor("processor.sv", 34, 430); // cl (w, cl)
+selectCodeEditor("processor.sv", 38, 410); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("processor.sv", 214, 432); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 107 seconds
+selectCodeEditor("MEM_WB_Stage.sv", 205, 498); // cl (w, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("MEM_WB_Stage.sv", 133, 416); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 116, 156); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 26, 245); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 135, 334); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectCodeEditor("processor.sv", 51, 478); // cl (w, cl)
+selectCodeEditor("processor.sv", 76, 474); // cl (w, cl)
+selectCodeEditor("processor.sv", 63, 512); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 34 seconds
+selectCodeEditor("processor.sv", 73, 173); // cl (w, cl)
+selectCodeEditor("processor.sv", 93, 91); // cl (w, cl)
+selectCodeEditor("processor.sv", 227, 53); // cl (w, cl)
+selectCodeEditor("processor.sv", 674, 47); // cl (w, cl)
+selectCodeEditor("processor.sv", 65, 192); // cl (w, cl)
+selectCodeEditor("processor.sv", 103, 133); // cl (w, cl)
+selectCodeEditor("processor.sv", 64, 242); // cl (w, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("processor.sv", 46, 366); // cl (w, cl)
+selectCodeEditor("processor.sv", 534, 484); // cl (w, cl)
+selectCodeEditor("processor.sv", 55, 364); // cl (w, cl)
+selectCodeEditor("processor.sv", 414, 461); // cl (w, cl)
+// Elapsed time: 13 seconds
+selectCodeEditor("processor.sv", 76, 284); // cl (w, cl)
+selectCodeEditor("processor.sv", 115, 262); // cl (w, cl)
+selectCodeEditor("processor.sv", 133, 273); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 736 MB. GUI used memory: 54 MB. Current time: 9/11/25, 8:28:41 AM PKT
+// Elapsed time: 1940 seconds
+selectCodeEditor("processor.sv", 207, 292); // cl (w, cl)
+// Elapsed time: 16 seconds
+selectCodeEditor("processor.sv", 540, 464); // cl (w, cl)
+// Elapsed time: 50 seconds
+selectCodeEditor("processor.sv", 334, 158); // cl (w, cl)
+// Elapsed time: 23 seconds
+selectCodeEditor("processor.sv", 458, 200); // cl (w, cl)
+selectCodeEditor("MEM_WB_Stage.sv", 294, 377); // cl (w, cl)
+// Elapsed time: 156 seconds
+selectButton(RDIResource.HCodeEditor_CLOSE, (String) null); // k (aL, cl)
+selectCodeEditor("processor.sv", 600, 138); // cl (w, cl)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "pc_next", true); // l (aT, cl)
+// Elapsed time: 55 seconds
+selectCodeEditor("processor.sv", 152, 378); // cl (w, cl)
+selectCodeEditor("processor.sv", 130, 516); // cl (w, cl)
+selectCodeEditor("processor.sv", 137, 578); // cl (w, cl)
+// Elapsed time: 129 seconds
+selectCodeEditor("processor.sv", 304, 477); // cl (w, cl)
+// Elapsed time: 26 seconds
+selectCodeEditor("processor.sv", 583, 531); // cl (w, cl)
+// Elapsed time: 232 seconds
+selectCodeEditor("processor.sv", 323, 514); // cl (w, cl)
+// Elapsed time: 404 seconds
+selectCodeEditor("processor.sv", 502, 429); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 54 MB. Current time: 9/11/25, 8:58:43 AM PKT
+// Elapsed time: 309 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "assign pc_plus_4"); // l (aT, cl)
+// Elapsed time: 293 seconds
+selectCodeEditor("processor.sv", 369, 509); // cl (w, cl)
+selectCodeEditor("processor.sv", 186, 147); // cl (w, cl)
+selectCodeEditor("processor.sv", 257, 157); // cl (w, cl)
+selectCodeEditor("processor.sv", 194, 152); // cl (w, cl)
+selectCodeEditor("processor.sv", 189, 150); // cl (w, cl)
+selectCodeEditor("processor.sv", 248, 154); // cl (w, cl)
+// Elapsed time: 19 seconds
+selectCodeEditor("processor.sv", 181, 250); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 232 seconds
+selectCodeEditor("processor.sv", 80, 388); // cl (w, cl)
+// Elapsed time: 18 seconds
+selectCodeEditor("processor.sv", 113, 431); // cl (w, cl)
+selectCodeEditor("processor.sv", 131, 436); // cl (w, cl)
+selectCodeEditor("processor.sv", 169, 438); // cl (w, cl)
+selectCodeEditor("processor.sv", 198, 441); // cl (w, cl)
+selectCodeEditor("processor.sv", 179, 435); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 224, 432); // cl (w, cl)
+selectCodeEditor("processor.sv", 224, 463); // cl (w, cl)
+selectCodeEditor("processor.sv", 262, 418); // cl (w, cl)
+selectCodeEditor("processor.sv", 278, 411); // cl (w, cl)
+// Elapsed time: 39 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // az
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv), STAGE_4 : xil_defaultlib.MEM_WB]", 15, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, processor (processor.sv), STAGE_4 : xil_defaultlib.MEM_WB]", 15, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectCodeEditor("processor.sv", 115, 187); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 36 seconds
+selectCodeEditor("processor.sv", 418, 487); // cl (w, cl)
+// Elapsed time: 19 seconds
+selectCodeEditor("processor.sv", 217, 292); // cl (w, cl)
+// Elapsed time: 94 seconds
+selectCodeEditor("processor.sv", 190, 525); // cl (w, cl)
+selectCodeEditor("processor.sv", 168, 467); // cl (w, cl)
+selectCodeEditor("processor.sv", 169, 479); // cl (w, cl)
+selectCodeEditor("processor.sv", 200, 478); // cl (w, cl)
+selectCodeEditor("processor.sv", 451, 508); // cl (w, cl)
+selectCodeEditor("processor.sv", 192, 489); // cl (w, cl)
+selectCodeEditor("processor.sv", 114, 533); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 96, 554); // cl (w, cl)
+selectCodeEditor("processor.sv", 133, 554); // cl (w, cl)
+selectCodeEditor("processor.sv", 182, 546); // cl (w, cl)
+selectCodeEditor("processor.sv", 146, 441); // cl (w, cl)
+selectCodeEditor("processor.sv", 140, 459); // cl (w, cl)
+selectCodeEditor("processor.sv", 103, 431); // cl (w, cl)
+selectCodeEditor("processor.sv", 113, 470); // cl (w, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("processor.sv", 93, 430); // cl (w, cl)
+selectCodeEditor("processor.sv", 97, 534); // cl (w, cl)
+// Elapsed time: 17 seconds
+selectCodeEditor("processor.sv", 484, 501); // cl (w, cl)
+selectCodeEditor("processor.sv", 430, 393); // cl (w, cl)
+selectCodeEditor("processor.sv", 281, 367); // cl (w, cl)
+selectCodeEditor("processor.sv", 234, 354); // cl (w, cl)
+selectCodeEditor("processor.sv", 203, 353); // cl (w, cl)
+selectButton(RDIResource.HCodeEditor_CLOSE, (String) null); // k (aL, cl)
+// Elapsed time: 21 seconds
+selectCodeEditor("processor.sv", 174, 190); // cl (w, cl)
+selectCodeEditor("processor.sv", 251, 218); // cl (w, cl)
+// Elapsed time: 11 seconds
+selectCodeEditor("processor.sv", 473, 230); // cl (w, cl)
+selectCodeEditor("processor.sv", 42, 131); // cl (w, cl)
+selectCodeEditor("processor.sv", 270, 140); // cl (w, cl)
+selectCodeEditor("processor.sv", 40, 127); // cl (w, cl)
+selectCodeEditor("processor.sv", 290, 141); // cl (w, cl)
+// Elapsed time: 38 seconds
+selectCodeEditor("processor.sv", 195, 72); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 25 seconds
+selectCodeEditor("processor.sv", 299, 78); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectCodeEditor("processor.sv", 120, 355); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor("processor.sv", 111, 267); // cl (w, cl)
+selectCodeEditor("processor.sv", 147, 273); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 141, 591); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("processor.sv", 192, 300); // cl (w, cl)
+selectCodeEditor("processor.sv", 190, 288); // cl (w, cl)
+selectCodeEditor("processor.sv", 340, 289); // cl (w, cl)
+selectCodeEditor("processor.sv", 148, 411); // cl (w, cl)
+selectCodeEditor("processor.sv", 112, 503); // cl (w, cl)
+// Elapsed time: 11 seconds
+selectCodeEditor("processor.sv", 194, 598); // cl (w, cl)
+selectCodeEditor("processor.sv", 200, 554); // cl (w, cl)
+selectCodeEditor("processor.sv", 203, 365); // cl (w, cl)
+// Elapsed time: 56 seconds
+selectCodeEditor("processor.sv", 626, 523); // cl (w, cl)
+// Elapsed time: 38 seconds
+selectCodeEditor("processor.sv", 252, 451); // cl (w, cl)
+selectCodeEditor("processor.sv", 225, 450); // cl (w, cl)
+selectCodeEditor("processor.sv", 271, 487); // cl (w, cl)
+selectCodeEditor("processor.sv", 141, 417); // cl (w, cl)
+selectCodeEditor("processor.sv", 186, 343); // cl (w, cl)
+selectCodeEditor("processor.sv", 231, 298); // cl (w, cl)
+selectCodeEditor("processor.sv", 217, 262); // cl (w, cl)
+selectCodeEditor("processor.sv", 301, 398); // cl (w, cl)
+selectCodeEditor("processor.sv", 28, 386); // cl (w, cl)
+selectCodeEditor("processor.sv", 337, 420); // cl (w, cl)
+selectCodeEditor("processor.sv", 359, 414); // cl (w, cl)
+selectCodeEditor("processor.sv", 124, 438); // cl (w, cl)
+selectCodeEditor("processor.sv", 132, 429); // cl (w, cl)
+selectCodeEditor("processor.sv", 31, 402); // cl (w, cl)
+selectCodeEditor("processor.sv", 6, 432); // cl (w, cl)
+selectCodeEditor("processor.sv", 175, 427); // cl (w, cl)
+selectCodeEditor("processor.sv", 13, 440); // cl (w, cl)
+selectCodeEditor("processor.sv", 57, 401); // cl (w, cl)
+selectCodeEditor("processor.sv", 19, 435); // cl (w, cl)
+selectCodeEditor("processor.sv", 2, 424); // cl (w, cl)
+// Elapsed time: 13 seconds
+selectCodeEditor("processor.sv", 218, 448); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 65 seconds
+selectCodeEditor("processor.sv", 169, 203); // cl (w, cl)
+selectCodeEditor("processor.sv", 166, 231); // cl (w, cl)
+// Elapsed time: 27 seconds
+selectCodeEditor("processor.sv", 283, 309); // cl (w, cl)
+selectCodeEditor("processor.sv", 361, 345); // cl (w, cl)
+selectCodeEditor("processor.sv", 281, 315); // cl (w, cl)
+selectCodeEditor("processor.sv", 356, 340); // cl (w, cl)
+selectCodeEditor("processor.sv", 296, 308); // cl (w, cl)
+selectCodeEditor("processor.sv", 279, 367); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 29 seconds
+selectCodeEditor("processor.sv", 183, 490); // cl (w, cl)
+selectCodeEditor("processor.sv", 273, 493); // cl (w, cl)
+selectCodeEditor("processor.sv", 178, 530); // cl (w, cl)
+selectCodeEditor("processor.sv", 272, 539); // cl (w, cl)
+// Elapsed time: 13 seconds
+selectCodeEditor("processor.sv", 110, 220); // cl (w, cl)
+// Elapsed time: 34 seconds
+selectCodeEditor("processor.sv", 137, 478); // cl (w, cl)
+selectCodeEditor("processor.sv", 138, 516); // cl (w, cl)
+selectCodeEditor("processor.sv", 122, 534); // cl (w, cl)
+selectCodeEditor("processor.sv", 77, 535); // cl (w, cl)
+selectCodeEditor("processor.sv", 37, 428); // cl (w, cl)
+selectCodeEditor("processor.sv", 62, 394); // cl (w, cl)
+selectCodeEditor("processor.sv", 60, 413); // cl (w, cl)
+// Elapsed time: 13 seconds
+selectCodeEditor("processor.sv", 97, 293); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 112 seconds
+selectCodeEditor("processor.sv", 167, 452); // cl (w, cl)
+// Elapsed time: 47 seconds
+selectCodeEditor("processor.sv", 516, 457); // cl (w, cl)
+floatFrame(PAResourceOtoP.PAViews_CODE, "processor.sv"); // az (aK, cl)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "processor.sv"); // az (aK, aM)
+// Elapsed time: 71 seconds
+selectCodeEditor("processor.sv", 82, 332); // cl (w, aM)
+selectCodeEditor("processor.sv", 283, 332); // cl (w, aM)
+selectCodeEditor("processor.sv", 127, 414); // cl (w, aM)
+selectCodeEditor("processor.sv", 168, 416); // cl (w, aM)
+selectCodeEditor("processor.sv", 106, 153); // cl (w, aM)
+selectCodeEditor("processor.sv", 106, 153, false, false, false, false, true); // cl (w, aM) - Double Click
+selectCodeEditor("processor.sv", 107, 95); // cl (w, aM)
+selectCodeEditor("processor.sv", 107, 95, false, false, false, false, true); // cl (w, aM) - Double Click
+// Elapsed time: 27 seconds
+selectCodeEditor("processor.sv", 161, 312); // cl (w, aM)
+selectCodeEditor("processor.sv", 161, 312, false, false, false, false, true); // cl (w, aM) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 33 seconds
+selectCodeEditor("processor.sv", 39, 96); // cl (w, aM)
+selectCodeEditor("processor.sv", 190, 432); // cl (w, aM)
+// HMemoryUtils.trashcanNow. Engine heap size: 738 MB. GUI used memory: 54 MB. Current time: 9/11/25, 9:28:43 AM PKT
+// Elapsed time: 47 seconds
+selectCodeEditor("ID_EX_Stage.sv", 316, 400); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 310, 367); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 290, 464); // cl (w, cl)
+selectCodeEditor("ID_EX_Stage.sv", 255, 218); // cl (w, cl)
+// Elapsed time: 50 seconds
+selectCodeEditor("processor.sv", 234, 365); // cl (w, aM)

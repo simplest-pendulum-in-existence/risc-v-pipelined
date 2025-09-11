@@ -1,0 +1,20 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/HamzaMateen/Architecture/_18_lab/_18_lab.srcs/sim_1/new/tb_alu.sv,1756681694,systemVerilog,,,,tb_alu,,,,,,,,
+C:/HamzaMateen/Architecture/_18_lab/_18_lab.srcs/sim_1/new/tb_alu_control.sv,1756679755,systemVerilog,,,,tb_alu_control,,,,,,,,
+C:/HamzaMateen/Architecture/_19_lab_real/_18_lab.srcs/sim_1/new/tb_instruction_memory.sv,1756532850,systemVerilog,,,,tb_instruction_memory,,,,,,,,
+C:/HamzaMateen/Architecture/_19_lab_real/_18_lab.srcs/sim_1/new/tb_program_counter.sv,1756711771,systemVerilog,,,,tb_program_counter,,,,,,,,
+C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sim_1/new/tb_processor.sv,1756774372,systemVerilog,,,,tb_processor,,,,,,,,
+C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/alu.sv,1757112467,systemVerilog,,C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/alu_control.sv,,alu,,,,,,,,
+C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/alu_control.sv,1757378830,systemVerilog,,C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/data_memory.sv,,alu_control,,,,,,,,
+C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/data_memory.sv,1757119134,systemVerilog,,C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/immediate_generator.sv,,data_memory,,,,,,,,
+C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/immediate_generator.sv,1756792385,systemVerilog,,C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/instruction_memory.sv,,immediate_generator,,,,,,,,
+C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/instruction_memory.sv,1756627198,systemVerilog,,C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/main_control.sv,,instruction_memory,,,,,,,,
+C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/main_control.sv,1757378807,systemVerilog,,C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/mux_2x1.sv,,main_control,,,,,,,,
+C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/mux_2x1.sv,1756701905,systemVerilog,,C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/processor.sv,,mux_2x1,,,,,,,,
+C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/processor.sv,1757376555,systemVerilog,,C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/program_counter.sv,,processor,,,,,,,,
+C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/program_counter.sv,1756712009,systemVerilog,,C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/register_file.sv,,program_counter,,,,,,,,
+C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sources_1/new/register_file.sv,1757132777,systemVerilog,,C:/HamzaMateen/Architecture/_20_lab_RISC_V_RV32I_ISA_TESTER_VERIFIED/_18_lab.srcs/sim_1/new/tb_processor.sv,,register_file,,,,,,,,
