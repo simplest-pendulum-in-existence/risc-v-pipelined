@@ -4,6 +4,8 @@ module ID_EX_Stage(
     input logic clk, 
     input logic rst,
     
+    input logic clr,
+    
     // INPUTS
     // control signals 
     input logic D_MemWrite, 
@@ -88,7 +90,33 @@ module ID_EX_Stage(
             E_pc_next    <= 32'b0;
             E_funct3 <= 3'b0;
             E_immExt     <= 32'b0;
+        
+        end
+        else if (clr) begin 
+            // control
+            E_MemWrite   <= 1'b0;
+            E_MemRead    <= 1'b0;
+            E_MemToReg   <= 1'b0;
+            E_ALUControl <= 4'b0;
+            E_Jump       <= 1'b0;
+            E_JumpSrc    <= 1'b0;
+            E_Branch     <= 1'b0;
+            E_ALUSrc     <= 1'b0;
+            E_rs1_sel    <= 2'b0;
+            E_RegWrite <= 1'b0;
             
+            // data
+            E_rs1        <= 32'b0;
+            E_rs2        <= 32'b0;
+            E_addr_rs1 <= 5'b0;
+            E_addr_rs2 <= 5'b0;
+            E_addr_rd    <= 5'b0;
+            E_pc         <= 32'b0;
+            E_pc_plus_4 <= 32'b0;
+            E_pc_next    <= 32'b0;
+            E_funct3 <= 3'b0;
+            E_immExt     <= 32'b0;
+        
         end else begin
             // control
             E_MemWrite   <= D_MemWrite;

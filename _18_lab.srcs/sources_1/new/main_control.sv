@@ -231,19 +231,19 @@ module main_control(
             end
             
             default: begin 
-                RegWrite =1'bz; 
-                ALUSrc = 1'bz;
-                ALUOp = 2'bzz; // invalid in this context
+                RegWrite =1'b0; 
+                ALUSrc = 1'b0;
+                ALUOp = 2'b00; // invalid in this context
                 
-                MemWrite =1'bz; 
-                MemRead = 1'bz; // reading from data memory
-                MemToReg = 1'bz; // yeah
+                MemWrite =1'b0; 
+                MemRead = 1'b0; // reading from data memory
+                MemToReg = 1'b0; // yeah
                 
-                Jump = 1'bz;
-                JumpSrc = 1'bz; 
-                Branch = 1'bz;
+                Jump = 1'b0;
+                JumpSrc = 1'b0; 
+                Branch = 1'b0;
                 
-                 rs1_sel = 2'bz;
+                 rs1_sel = 2'b0;
             end
         endcase
         

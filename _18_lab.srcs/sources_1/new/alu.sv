@@ -47,7 +47,7 @@ module alu(
         _SLTU:   out = (rs1 < rs2) ? 32'd1 : 32'd0; // unsigned comparison
         _SRL:    out = rs1 >> rs2[4:0];            // logical right shift
         _XOR:    out = rs1 ^ rs2;
-        default: out = 32'hDEADBEEF; // Or 32'd0 or 'x depending on your preference
+        default: out = 32'hFEEDDEAD; // Or 32'd0 or 'x depending on your preference
     endcase
     
     end

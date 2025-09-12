@@ -3,6 +3,8 @@
 module program_counter(
     input logic clk, 
     input logic rst, 
+    input logic stall, 
+    
     input logic [31:0] pc_next, // either we receive an offset or a 4
     
     output logic [31:0] pc
@@ -11,7 +13,9 @@ module program_counter(
     always @ (posedge clk or negedge rst) begin 
         if (!rst) 
             pc <= 32'd0; 
-        else 
-            pc <= pc_next;   // adder performs the addition outside of this module
+        else if (stall) 
+            pc <= pc;   
+        else
+            pc <= pc_next; // retain value 
     end
 endmodule

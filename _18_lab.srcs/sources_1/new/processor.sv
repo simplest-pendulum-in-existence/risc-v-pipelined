@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module processor(input logic clk, input logic rst); // acts as whole processor module 
+    module processor(input logic clk, input logic rst); // acts as whole processor module 
         
         /* 
         // Pipelining 
@@ -9,14 +9,20 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
         // of a pipeline register
         */ 
         
+        /* IF/ID start*/
+
         // 1. program counter 
         
-        /* IF/ID start*/
+        // Hazard Unit signals        
+        logic lwStall, StallF, StallD, FlushE;
+        // end signals 
+        
         logic [31:0] pc, pc_next;  // this signal will be routed back onto via another signal
    
         program_counter  PC (
             .clk(clk), 
             .rst(rst), 
+            .stall(StallF),
             .pc_next(pc_next),
             .pc(pc)
         );
@@ -36,6 +42,8 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
         IF_ID_Stage STAGE_1 (
             .clk(clk), 
             .rst(rst),
+            .en(StallD),
+            .clr(1'b0), // don't clr for now
             .F_pc(pc),
             .F_pc_next(pc_next),
             .F_instr(instr),
@@ -182,7 +190,9 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
         logic [31:0] E_immExt;
 
         ID_EX_Stage STAGE_2 (
-            .clk(clk), .rst(rst),
+            .clk(clk), 
+            .rst(rst),
+            .clr(FlushE),
             // control 
             .D_MemWrite(MemWrite),
             .D_MemRead(MemRead),
@@ -257,6 +267,19 @@ module processor(input logic clk, input logic rst); // acts as whole processor m
             .ForwardA(ForwardA),
             .ForwardB(ForwardB)
         ); 
+        
+        // hazar unit and forwarding go hand in hand so: 
+        
+        hazard_unit     HAZU (
+            .E_MemToReg(E_MemToReg),
+            .D_addr_rs1(addr_rs1),   // from prev stage
+            .D_addr_rs2(addr_rs2),   // ......
+            .E_addr_rd(E_addr_rd), 
+            .lwStall(lwStall),
+            .StallF(StallF),
+            .StallD(StallD),
+            .FlushE(FlushE)
+        );
         
         typedef enum logic [1:0] {
             Fwd_MEM = 2'b00,

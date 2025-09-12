@@ -6,6 +6,7 @@ module FWD_LOGIC(
     
     input logic M_RegWrite, 
     input logic W_RegWrite, 
+ 
     input logic [ 4:0 ] M_addr_rd, 
     input logic [ 4:0 ] W_addr_rd,
     
@@ -15,7 +16,7 @@ module FWD_LOGIC(
     // forwarding x0 is a redundancy rather than a threat!  
     
     // x0 isn't to be forwarded, but why ?
-    always_comb
+   always_comb
     begin 
     
         if (((E_addr_rs1 == M_addr_rd) & M_RegWrite) & (E_addr_rs1 != 5'b0))

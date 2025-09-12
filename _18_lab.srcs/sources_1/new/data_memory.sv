@@ -15,9 +15,9 @@ module data_memory (
     // read some damned data from a file 
     logic [7:0] data_mem [0: 1023];   // byte addressable data memory 
     
-//    initial begin 
-//        $readmemh("data_mem.mem", data_mem);
-//    end
+    initial begin 
+        $readmemh("data_mem.mem", data_mem);
+    end
     
     // reads finna be combinational
     // so how do we decide whether it's a store or load command? 
