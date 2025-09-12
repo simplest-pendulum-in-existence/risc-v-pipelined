@@ -1,0 +1,56 @@
+#########################################################################################
+##  Xilinx Vivado/ISE .gitignore                                                       ##
+#########################################################################################
+
+# Logs, reports, journals
+*.log
+*.jou
+*.rpt
+*.str
+
+# Temporary build dirs (any project prefix)
+*.cache/
+*.sim/
+*.runs/
+*.hw/
+*.ip_user_files/
+*.gen/
+*.srcs/sources_1/ip/
+*.srcs/sources_1/bd/
+
+# .Xil internal
+.Xil/
+
+# Simulation outputs
+*.vcd
+*.saif
+*.tcf
+*.wdb
+*.pb
+*.dbg
+*.db
+*.xdbg
+*.xml
+*.html
+
+# Memory init and temp files
+*.mem
+*.elf
+
+# Bitstreams / binaries
+*.bit
+*.bin
+*.mcs
+*.svf
+*.image
+
+# Checkpoints
+*.dcp
+
+# Crash / error dumps
+hs_err_pid*
+xelab.*
+xsim.*
+xvlog.*
+*.backup.*
+*.debug

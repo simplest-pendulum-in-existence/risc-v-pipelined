@@ -22,6 +22,8 @@ module ID_EX_Stage(
     // data signals 
     input logic [31:0] D_rs1, 
     input logic [31:0] D_rs2,
+    input logic [ 4:0 ] D_addr_rs1, 
+    input logic [ 4:0 ] D_addr_rs2,
     input logic [ 4:0 ] D_addr_rd,   // the write register' addr for the WB stage 
     
     input logic [31:0] D_pc,  // we gotta retain this pc man!
@@ -49,6 +51,8 @@ module ID_EX_Stage(
     // output signals 
     output logic [31:0] E_rs1, 
     output logic [31:0] E_rs2,
+    output logic [ 4:0 ] E_addr_rs1, 
+    output logic [ 4:0 ] E_addr_rs2,
     output logic [ 4:0 ] E_addr_rd,   // the write register' addr for the WB stage 
     
     output logic [31:0] E_pc,           // we gotta retain this pc man!
@@ -76,6 +80,8 @@ module ID_EX_Stage(
             // data
             E_rs1        <= 32'b0;
             E_rs2        <= 32'b0;
+            E_addr_rs1 <= 5'b0;
+            E_addr_rs2 <= 5'b0;
             E_addr_rd    <= 5'b0;
             E_pc         <= 32'b0;
             E_pc_plus_4 <= 32'b0;
@@ -99,8 +105,10 @@ module ID_EX_Stage(
             // data
             E_rs1        <= D_rs1;
             E_rs2        <= D_rs2;
+            E_addr_rs1 <= D_addr_rs1;
+            E_addr_rs2 <= D_addr_rs2;
             E_addr_rd    <= D_addr_rd;
-            E_pc         <= D_pc;
+            E_pc   <= D_pc;
             E_pc_plus_4 <= D_pc_plus_4;
             E_pc_next    <= D_pc_next;
             E_funct3  <= D_funct3;

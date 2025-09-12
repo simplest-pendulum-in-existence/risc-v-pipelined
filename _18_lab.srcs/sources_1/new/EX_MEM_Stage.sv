@@ -10,7 +10,7 @@ module EX_MEM_Stage (
     input logic E_MemWrite,
     input logic E_MemRead,
     input logic E_RegWrite,
-    
+    input logic E_Jump, 
     input logic E_MemToReg,
     
     // data 
@@ -28,7 +28,7 @@ module EX_MEM_Stage (
     output logic  M_MemWrite, 
     output  logic M_MemRead,
     output logic  M_RegWrite, 
-    
+    output logic  M_Jump,
     output logic  M_MemToReg, 
     
     // data 
@@ -45,6 +45,7 @@ module EX_MEM_Stage (
             M_MemWrite <= 1'b0;
             M_MemRead <= 1'b0; 
             M_RegWrite <= 1'b0;
+            M_Jump <= 1'b0;
             M_MemToReg <= 1'b0; 
             M_ALUResult <= 32'b0; 
             M_rs2 <= 32'b0; 
@@ -56,6 +57,7 @@ module EX_MEM_Stage (
             M_MemWrite <= E_MemWrite;
             M_MemRead <= E_MemRead; 
             M_RegWrite <=   E_RegWrite;
+            M_Jump <= E_Jump;
             M_MemToReg <= E_MemToReg; 
             M_ALUResult <= E_ALUResult; 
             M_rs2 <=    E_rs2; 

@@ -23,7 +23,7 @@ module register_file(
    
     initial begin
             for(int i=0; i<32; i++) 
-                reg_file[i]<=0;
+                reg_file[i]=0;
     end
     
     assign rs1 = reg_file[addr_rs1]; 
@@ -37,7 +37,7 @@ module register_file(
     
     assign reg_file[5'd0] = 0;
     
-    always_ff @ (posedge clk) begin 
+    always_ff @ (negedge clk) begin 
         
         if (RegWrite) begin  
             reg_file[addr_rd] <= data;
