@@ -22,6 +22,7 @@ module ID_EX_Stage(
     input logic [1:0] D_rs1_sel,   // select source of rs1
     
     // data signals 
+    input logic [31:0] D_pc_plus_4,
     input logic [31:0] D_rs1, 
     input logic [31:0] D_rs2,
     input logic [ 4:0 ] D_addr_rs1, 
@@ -29,7 +30,6 @@ module ID_EX_Stage(
     input logic [ 4:0 ] D_addr_rd,   // the write register' addr for the WB stage 
     
     input logic [31:0] D_pc,  // we gotta retain this pc man!
-    input logic [31:0] D_pc_plus_4,
     input logic [31:0] D_pc_next, // and + 4 
     input logic [ 2:0 ] D_funct3,
     input logic [31:0] D_immExt, // extended value that could be used in EX (ALU) stage

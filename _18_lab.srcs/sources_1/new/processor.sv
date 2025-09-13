@@ -14,7 +14,9 @@
         // 1. program counter 
         
         // Hazard Unit signals        
-        logic lwStall, StallF, StallD, FlushE;
+        logic lwStall, StallF, StallD, FlushD, FlushE;
+        
+        logic [31:0] pc_plus_4;
         // end signals 
         
         logic [31:0] pc, pc_next;  // this signal will be routed back onto via another signal
@@ -27,6 +29,8 @@
             .pc(pc)
         );
       
+        assign pc_plus_4 = pc + 4; 
+
         // 2. instruction memory (word addressed) 
         logic [31:0] instr;
         
@@ -37,17 +41,19 @@
         );
         
         // pipeline register
-        logic [31:0] D_pc, D_pc_next, D_instr;
+        logic [31:0] D_pc, D_pc_plus_4, D_pc_next, D_instr;
         
         IF_ID_Stage STAGE_1 (
             .clk(clk), 
             .rst(rst),
             .en(StallD),
-            .clr(1'b0), // don't clr for now
+            .clr(FlushD),
             .F_pc(pc),
+            .F_pc_plus_4(pc_plus_4),
             .F_pc_next(pc_next),
             .F_instr(instr),
             .D_pc(D_pc),
+            .D_pc_plus_4(D_pc_plus_4),
             .D_pc_next(D_pc_next),
             .D_instr(D_instr)
         );
@@ -109,16 +115,15 @@
         
         // should the result go to register file or PC + 4, depending on Jump ?
         logic W_Jump; // from the write back stage
+        logic W_pc_next;
         
-        logic [31:0] pc_plus_4;
         logic [31:0] write_data_src; 
 
-        assign pc_plus_4 = pc + 4; 
         
         mux_2x1 RESULT_OR_NEXT_INSTR_ADDR_MUX (
             .sel(W_Jump), 
             .a   (result),  // it's part of the write back loop
-            .b   (pc_plus_4),  
+            .b   (W_pc_next),  
             .out(write_data_src)  
         );
         
@@ -269,15 +274,19 @@
         ); 
         
         // hazar unit and forwarding go hand in hand so: 
+        logic IsZero; // branching indicator
+        logic PCSrc; 
         
         hazard_unit     HAZU (
             .E_MemToReg(E_MemToReg),
             .D_addr_rs1(addr_rs1),   // from prev stage
             .D_addr_rs2(addr_rs2),   // ......
             .E_addr_rd(E_addr_rd), 
+            .PCSrc (PCSrc),
             .lwStall(lwStall),
             .StallF(StallF),
             .StallD(StallD),
+            .FlushD(FlushD),
             .FlushE(FlushE)
         );
         
@@ -340,7 +349,6 @@
         );   
 
 
-        logic IsZero; // branching indicator
         alu  ALU (
             .rs1(SrcA),     // mux placed after the src1 mux
             .rs2(rs2_src), // mux placed before the src1 mux
@@ -348,6 +356,8 @@
             .data(ALUResult),    // goes to Register File
             .Zero(IsZero)
         );
+        
+        assign PCSrc = (E_Branch & IsZero) | E_Jump;
         
         // NOTE: rs2_src is a bad name, chnage it. TODO
         
@@ -357,19 +367,23 @@
         
         always_comb 
         begin 
-        
-            if (E_Jump) begin
-                if (E_JumpSrc) pc_next = ALUResult;         // JALR
-                else                  pc_next = E_pc + rs2_src;   // JAL 
-            end 
-            else if (E_Branch) begin // beq operation 
-                if (IsZero) 
-                    pc_next = E_pc + E_immExt;   // we need the pc for current instruction .
-                else 
-                    pc_next = pc_plus_4; // we need the next instruction to be read. we good with computing the pc + 4 in the first ever stage. 
-            end
-            else  pc_next = pc_plus_4;
+            
+            if (PCSrc) begin 
+            
+                    if (E_Jump) begin
+                        if (E_JumpSrc) pc_next = ALUResult;         // JALR
+                        else                  pc_next = E_pc + rs2_src;   // JAL 
+                    end 
+                    else if (E_Branch) begin // beq operation 
+                        if (IsZero) 
+                            pc_next = E_pc + E_immExt;   // we need the pc for current instruction .
+                        else 
+                            pc_next = pc_plus_4; // we need the next instruction to be read. we good with computing the pc + 4 in the first ever stage. 
+                    end
+                    else  pc_next = pc_plus_4;
              
+             end else 
+                pc_next = pc_plus_4;
         end
         
         // pipe line register 
@@ -385,6 +399,7 @@
         logic [ 2:0 ] M_funct3;
         // logic [ 4:0 ] M_addr_rd; // declared above for forwarding logic
         logic [31:0] M_pc_next;
+        logic [31:0] M_pc_plus_4;
         
         EX_MEM_Stage STAGE_3 (
             .clk(clk),  .rst(rst), 
@@ -397,6 +412,7 @@
             .E_rs2(SrcB), // that issue which Anas pointed me at! ;)
             .E_funct3(E_funct3),
             .E_addr_rd(E_addr_rd),
+            .E_pc_plus_4(E_pc_plus_4),
             .E_pc_next(E_pc_next), // i won't apparently be using this i guess :=(
             
             .M_MemWrite(M_MemWrite), 
@@ -408,6 +424,7 @@
             .M_rs2(M_rs2),
             .M_funct3(M_funct3),
             .M_addr_rd(M_addr_rd),
+            .M_pc_plus_4(M_pc_plus_4),
             .M_pc_next(M_pc_next) // won't !!! :(  
         );
         /* EX/MEM end */
@@ -440,8 +457,9 @@
         logic [31:0] W_dataR;
         // logic [ 4:0 ] W_addr_rd; 
         logic [31:0] W_ALUResult;
-        logic [31:0] W_pc_next;  // unused still , courtesy of my love for this signal!
-
+        // logic [31:0] W_pc_next;  // unused still , courtesy of my love for this signal!
+        logic [31:0] W_pc_plus_4;
+        
         MEM_WB_Stage STAGE_4 (
             .clk(clk), .rst(rst),
             
@@ -451,6 +469,7 @@
             .M_dataR (dataR),
             .M_addr_rd(M_addr_rd),
             .M_ALUResult(M_ALUResult),
+            .M_pc_plus_4(M_pc_plus_4),
             .M_pc_next(M_pc_next), // courtesy of my love for this signal yet again!
 
             .W_RegWrite(W_RegWrite),  // feedsback to ID stage
@@ -459,6 +478,7 @@
             .W_dataR (W_dataR),
             .W_addr_rd(W_addr_rd),
             .W_ALUResult(W_ALUResult),
+            .W_pc_plus_4(W_pc_plus_4),
             .W_pc_next(W_pc_next) 
             
         ); 

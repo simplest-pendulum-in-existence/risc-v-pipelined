@@ -8,9 +8,14 @@ module hazard_unit(
     input logic [ 4:0 ] D_addr_rs2,
     input logic [ 4:0 ] E_addr_rd,
     
+    input logic PCSrc,
+    
     output logic lwStall,
     output logic StallF,
     output logic StallD,
+    
+    output logic FlushD,
+    
     output logic FlushE
 
     );
@@ -22,6 +27,7 @@ module hazard_unit(
     
     assign StallF =   lwStall; 
     assign StallD =  lwStall;
-    assign FlushE = lwStall;
+    assign FlushD = PCSrc; 
+    assign FlushE = lwStall | PCSrc;
     
 endmodule
